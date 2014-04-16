@@ -1,0 +1,77 @@
+
+#wrapper {
+	width: 200px;
+	margin: 0 auto;
+	text-align: left;
+	position:absolute;
+	top:171px;
+	left:210px;
+}
+#chart,#form_values {
+	width:200px;
+}
+#chart {
+	list-style: none;
+	margin-bottom:20px;
+}
+#chart li,#chart li span {
+	height:10px;
+}
+#chart li .percent {
+	width: 30px;
+	position: absolute;
+	top: 0;
+	margin-left:5px;
+}
+#chart li {
+	position: relative;
+	display: block;
+	width: 139px;
+	margin: 0 0 15px 5px;
+	text-align: left;
+}
+#chart li .bar {
+	width:0;
+}
+.red .bar {
+	background: red;
+}
+.blue .bar {
+	background: blue;
+}
+.yellow .bar {
+	background: #FFED53;
+}
+.orange .bar {
+	background: orange;
+}
+.purple .bar {
+	background: purple;
+}
+
+.grey .bar {
+	background: #626262;
+}
+.field {
+	padding: 3px;
+	width: 50px;
+	border: solid 1px #000;
+	float: left;
+	margin-right: 5px;
+	color: #333;
+}
+.lastBarItem{margin-bottom:80px !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Savills SRES</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<link type="text/css" rel="stylesheet" href="../../css/reset.css" />
+<link type="text/css" rel="stylesheet" href="../../css/global.css" />
+<link type="text/css" rel="stylesheet" href="../../css/animate.css" />
+<link type="text/css" rel="stylesheet" href="../../css/jquery.mobile-1.3.0.css" />
+<link type="text/css" rel="stylesheet" href="../../css/jquery.jscrollpane.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../css/print.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../../js/modernizr-2.0.6.js"></script>
+<script type="text/javascript" src="../../js/jquery.min.js"></script>
+<script src="../../js/sitestructure.js"></script>
+<script src="../../js/global.js"></script>
+<script>
+var pageContactArray = new Array();
+pageContactArray = [{contactPersonImg:"images/reports/img_simon_smith.jpg", contactPerson:"Simon Smith", cpTitle:"Senior Director", cpDepartment:"Research & Consultancy", cpTel:"+852 2842 4573", cpEmail:"STSmith@savills.com.hk"}]
+</script>
+
+</head>
+<body id='page-id-122'>
+<div id="mainContainer">
+	<script type="text/javascript">
+		genTopNav();
+	</script>
+	<div class="mainContent withBreadcumb" style="background:url(../../images/reports/research_reports_LANDING.jpg) no-repeat 0 6px; height:638px;">
+		<img src="../../images/reports/img_landing.png" alt="" style="padding:77px 0 0 224px;"/>
+		<div class="indexPageContent">Savills commercial property research teams produce industry and sector reports for all those concerned with the commercial property market. <span>Our publications offer practical guidance to create a competitive advantage, and help our clients make well-informed real estate decisions and realise business goals</span>. In this section you will find the latest industry and sector reports from around the world. Through this section you will have direct access to Savills Research contacts.</div>
+		<div class="indexContentBtnContainer">
+			<!--<img src="../../images/citybriefings/img_three_btn.png" alt="" border="0" usemap="#Map" />
+			<map name="Map" id="Map">
+				<area shape="rect" coords="0,0,123,124" href="apac/index.html" />
+				<area shape="rect" coords="197,0,322,128" href="americas/index.html" />
+				<area shape="rect" coords="391,1,513,124" href="#" />
+			</map>-->
+			<div class="clearfix" style="margin:0 auto; width:490px;">
+				<a href="apac/index.html" class="indexBtn btn_apac" style="margin-right:80px;"><img src="../../images/whereWePlay/btn_index_apac.png" alt="APAC" /></a>
+				<a href="americas/index.html" class="indexBtn btn_americas" style="margin-right:80px;"><img src="../../images/whereWePlay/btn_index_americas.png" alt="Americas" /></a>
+				<a href="europe/index.html" class="indexBtn btn_europe last"><img src="../../images/whereWePlay/btn_index_europe.png" alt="Europe" /></a>
+			</div>
+		</div>
+		<div id="overlay"></div>
+		<div id="researchReportContactOverlay">
+			<div id="researchReportContactOverlayContent">
+				<div class="closeBtn"></div>
+				<div class="imgContainer"></div>
+				<div class="basicInfo">
+					<div class="contactPerson"></div>
+					<div class="cpTitle"></div>
+					<div class="cpDepartment"></div>
+					<div class="cpTel"></div>
+					<div class="cpEmail"></div>
+				</div>
+				<a href="#" class="btnEmail"></a>
+				<div class="yellowDiv"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+var isiPad = navigator.userAgent.match(/iPad/i) != null;
+
+if(isiPad){
+	$('#topNav').addClass('ipadMargin')
+}
+
+
+var isMacLike = navigator.userAgent.match(/(Mac|iPhone|iPod|iPad)/i)?true:false;
+
+if(isMacLike){
+  $('#topNav').addClass('ipadMargin')
+}
+
+if ($.browser.msie  && parseInt($.browser.version, 10) > 7) {
+ $('#topNav').addClass('ipadMargin')
+}
+
+initTopNav();
+initBreadcumb();
+</script>
+</body>
+</html>

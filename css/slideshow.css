@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul{padding:0;}
+
+#slideshow-header {
+	height:20px;
+	margin:20px 0 9px 0;
+	/*position:relative;*/
+	}
+	
+#slideshow-header ul {
+	width:auto;
+	float:right;
+	}
+	
+#slideshow-header ul li {
+	float:right;
+	display:block;
+	list-style:none;
+	margin-left:30px;
+	width:auto;
+	cursor:pointer;
+	}
+	
+#slideshow-header ul li#index-display {
+	cursor:default;
+	width:30px;
+	}
+	
+li#index-display span {
+	display:none;
+	}
+	
+#slideshow-header ul li#mycarousel-next {
+	background:url('http://www.jontakiff.com/brooks/images/products/slide-top-right.gif') no-repeat;
+	text-indent:-3000em;
+	width:11px;
+	height:19px;
+	}
+	
+#slideshow-header ul li#mycarousel-prev {
+	background:url('http://www.jontakiff.com/brooks/images/products/slide-top-left.gif') no-repeat;
+	text-indent:-3000em;
+	width:11px;
+	height:19px;
+	}
+	
+#product-slideshow {
+	border:1px solid #373737;
+	height:319px;
+	width:755px;
+	}
+	
+#product-slideshow-inside {
+	/*overflow:hidden;*/
+	height:319px;
+	width:755px;
+	position:relative;
+	background-color:#b7b7b7;
+	}
+	
+#mycarousel {
+	overflow:auto;
+	position:relative;
+	}
+	
+#mycarousel li {
+	display:block;
+	/*float:left;*/
+	}
+	
+li#play-button {
+	margin-left:0 !important;
+	}
+	
+#slide-left-nav {
+	cursor:pointer;
+	background:#000;
+	position:absolute;
+	opacity:0.8;
+	height:319px;
+	left:0;
+	top:0;
+	}
+	
+#slide-left-nav-button {
+	float:left;
+	margin-left:13px;
+	margin-top:150px;
+	/*to hide or display arrow*/
+	}
+	
+#slide-left-nav-button, #slide-right-nav-button {
+	height:30px;
+	width:22px;
+	text-indent:-3000em;
+	}
+
+#slide-right-nav {
+	cursor:pointer;
+	background:#000;
+	position:absolute;
+	opacity:0.8;
+	height:319px;
+	right:0;
+	top:0;
+	}
+	
+#slide-right-nav-button {
+	float:right;
+	margin-right:13px;
+	margin-top:150px;
+	}
+	
+#display {
+	border:1px solid #373737;
+	float:left;
+	margin-top:14px;
+	width:auto;
+	padding:10px;
+	}
+	
+#display span {
+	display:none;
+	}
+	
+/*** formatting for current blog setup ***/
+
+ul#mycarousel, #slideshow-header ul {margin:0;}
+
+br {margin-bottom:0;}
+
+p#display strong {color:#fe205a;}
+
+p#display {margin-bottom:39px;}

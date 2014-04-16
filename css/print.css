@@ -1,0 +1,13 @@
+@charset "utf-8";
+.toolsSubNav{ display:none;}
+#topNav a.active {background-position:center 50px;}
+#topNav a span,
+#topNav .btnTools span,
+#topNav .btnShare span{
+	background-color: transparent;}
+.cssanimations .slideInLeft_1{
+	top: 97px;
+	-webkit-animation:initial;
+	-moz-animation: initial;
+	animation: initial;
+}

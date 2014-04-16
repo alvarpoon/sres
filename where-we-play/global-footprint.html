@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Global Footprint | Savills SRES</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<link type="text/css" rel="stylesheet" href="../css/reset.css" />
+<link type="text/css" rel="stylesheet" href="../css/global.css" />
+<link type="text/css" rel="stylesheet" href="../css/animate.css" />
+<link type="text/css" rel="stylesheet" href="../css/jquery.mobile-1.3.0.css" />
+<link type="text/css" rel="stylesheet" href="../css/jquery.jscrollpane.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../css/print.css" media="print" />
+<link type="text/css" rel="stylesheet" href="../css/print.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../js/modernizr-2.0.6.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.preload.js"></script>
+<script src="../js/sitestructure.js"></script>
+<script src="../js/global.js"></script>
+<!-- the mousewheel plugin -->
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="../js/jquery.jscrollpane.js"></script>
+<script type="text/javascript" id="sourcecode">
+	/*$(function()
+	{
+		$('.scroll-pane').jScrollPane({
+			verticalDragMinHeight: 46,
+    		verticalDragMaxHeight: 50
+		});
+	});*/
+	
+	$.preload( '../images/whereWePlay/bg_global_footprint_usa.png',
+	  '../images/whereWePlay/bg_global_footprint_africa.png',
+	  '../images/whereWePlay/bg_global_footprint_europe.png',
+	  '../images/whereWePlay/bg_global_footprint_asia.png'
+	);
+</script>
+<style type="text/css" id="page-css">
+/* Styles specific to this particular page */
+.scroll-pane
+{
+	width: 225px;
+	height: 140px;
+	overflow: auto;
+}
+</style>
+</head>
+<body id="page-id-19">
+<div id="mainContainer">
+	<script type="text/javascript">
+		genTopNav();
+	</script>
+	<div class="mainContent withBreadcumb" style="position:relative;">
+		<div class="globalFootprintContainer">
+			<!--<div id="countryFilterContainer">
+				<div>
+					<a href="javascript:;" class="americaBtn">america</a>
+					<!--<a href="#" class="euorpeBtn">europe</a>
+					<a href="javascript:;" class="apacBtn">apac</a>
+				</div>
+			</div>-->
+			<div id="mapBtnControl">
+				<div id="btnAustralasiaDiv">
+					<img src="../images/whereWePlay/btn_australasia.png" class="btnAustralasia" alt="" />
+					<div class="australasiaDiv">
+						<div class="closeBtn"></div>
+						<div class="countryContent clearfix">
+							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable floatLeft">
+								<tr>
+									<td>Adelaide</td>
+								</tr>
+								<tr>
+									<td>Brisbane</td>
+								</tr>
+								<tr>
+									<td>Canberra</td>
+								</tr>
+								<tr>
+									<td>Gold Coast</td>
+								</tr>
+								<tr>
+									<td><a href="apac-footprint-city-guide/melbourne.html">Melbourne</a></td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable floatLeft">
+								<tr>
+									<td>Perth </td>
+								</tr>
+								<tr>
+									<td>Sunshine<br />Coast</td>
+								</tr>
+								<tr>
+									<td><a href="apac-footprint-city-guide/sydney.html">Sydney</a></td>
+								</tr>
+								<tr>
+									<td>Auckland</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div id="btnSouthAfricaDiv">
+					<img src="../images/whereWePlay/btn_south_africa.png" class="btnSouthAfrica" alt="" />
+					<div class="southAfricaDiv">
+						<div class="closeBtn"></div>
+						<div class="countryContent">
+							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable">
+								<tr>
+									<td>Angola</td>
+								</tr>
+								<tr>
+									<td>Botswana</td>
+								</tr>
+								<tr>
+									<td>Oman</td>
+								</tr>
+								<tr>
+									<td>South Africa</td>
+								</tr>
+								<tr>
+									<td>Swaziland</td>
+								</tr>
+								<tr>
+									<td>Zambia</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div id="btnIndiaDiv">
+					<img src="../images/whereWePlay/btn_india.png" class="btnIndia" alt="" />
+					<div class="indiaDiv">
+						<div class="closeBtn"></div>
+						<div class="countryContent">
+							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable">
+								<tr>
+									<td>Bangalore</td>
+								</tr>
+								<tr>
+									<td>Chennai</td>
+								</tr>
+								<tr>
+									<td>Dehli</td>
+								</tr>
+								<tr>
+									<td>Mumbai</td>
+								</tr>
+								<tr>
+									<td>Pune</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div id="btnAsiaDiv">
+					<img src="../images/whereWePlay/btn_asia.png" class="btnAsia" alt="" />
+					<div class="asiaDiv">
+						<div class="closeBtn"></div>
+						<div class="countryContent">
+							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable">
+								<tr>
+									<td><a href="apac-footprint-city-guide/beijing.html">China</a></td>
+									<td><a href="apac-footprint-city-guide/singapore.html">Singapore</a></td>
+								</tr>
+								<tr>
+									<td><a href="apac-footprint-city-guide/hk.html">Hong Kong</a></td>
+									<td><a href="apac-footprint-city-guide/seoul/index.html">South Korea</a></td>
+								</tr>
+								<tr>
+									<td><a href="apac-footprint-city-guide/tokyo.html">Japan</a></td>
+									<td>Taiwan</td>
+								</tr>
+								<tr>
+									<td>Macau</td>
+									<td>Thailand</td>
+								</tr>
+								<tr>
+									<td>Malaysia</td>
+									<td>Vietnam</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div id="btnEuropeDiv">
+					<img src="../images/whereWePlay/btn_europe_lrg.png" class="btnEurope" alt="" />
+					<div class="europeDiv">
+						<div class="closeBtn"></div>
+						<div class="countryContent">
+							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable">
+								<tr>
+									<td>Austria</td>
+									<td><a href="europe-footprint-city-guide/milan.html">Italy</a></td>
+									<td>Portugal</td>
+								</tr>
+								<tr>
+									<td>Belgium</td>
+									<td>Luxembourg</td>
+									<td>Russia</td>
+								</tr>
+								<tr>
+									<td>Croatia</td>
+									<td>Monaco</td>
+									<td><a href="europe-footprint-city-guide/madrid.html">Spain</a></td>
+								</tr>
+								<tr>
+									<td>France</td>
+									<td>Montenegro</td>
+									<td>Sweden</td>
+								</tr>
+								<tr>
+									<td><a href="europe-footprint-city-guide/frankfurt-cbd.html">Germany</a></td>
+									<td><a href="europe-footprint-city-guide/amsterdam.html">Netherlands</a></td>
+									<td>Switzerland</td>
+								</tr>
+								<tr>
+									<td>Gibraltar</td>
+									<td>Norway</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Greece</td>
+									<td><a href="europe-footprint-city-guide/warsaw.html">Poland</a></td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div id="btnUKDiv">
+					<img src="../images/whereWePlay/btn_uk.png" class="btnUK" alt="" />
+					<div class="ukDiv">
+						<div class="countryContent">
+							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable">
+								<tr>
+									<td><a href="europe-footprint-city-guide/london.html">England</a></td>
+								</tr>
+								<tr>
+									<td><a href="europe-footprint-city-guide/dublin.html">Ireland</a></td>
+								</tr>
+								<tr>
+									<td>Jersey</td>
+								</tr>
+								<tr>
+									<td>Scotland</td>
+								</tr>
+								<tr>
+									<td>Wales</td>
+								</tr>
+							</table>
+						</div>
+						<div class="closeBtn"></div>
+					</div>
+				</div>
+				<div id="btnUSADiv">
+					<img src="../images/whereWePlay/btn_usa.png" class="btnUSA" alt="" />
+					<div class="usaDiv">
+						<div class="closeBtn"></div>
+						<div class="countryContent clearfix">
+							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable floatLeft">
+								<tr>
+									<td><a href="america-footprint-city-guide/new-york.html">Atlanta</a></td>
+								</tr>
+								<tr>
+									<td><a href="america-footprint-city-guide/boston.html">Boston</a></td>
+								</tr>
+								<tr>
+									<td><a href="america-footprint-city-guide/chicago.html">Chicago</a></td>
+								</tr>
+								<tr>
+									<td><a href="america-footprint-city-guide/washington-dc.html">Washington, DC</a></td>
+								</tr>
+							</table>
+							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable floatLeft">
+								<tr>
+									<td><a href="america-footprint-city-guide/los-angeles.html">Los Angeles</a></td>
+								</tr>
+								<tr>
+									<td><a href="america-footprint-city-guide/new-york.html">New York</a></td>
+								</tr>
+								<tr>
+									<td>Newport</td>
+								</tr>
+								<tr>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="overlay"></div>
+		<div id="researchReportContactOverlay">
+			<div id="researchReportContactOverlayContent">
+				<div class="closeBtn"></div>
+				<div class="imgContainer"></div>
+				<div class="basicInfo">
+					<div class="contactPerson"></div>
+					<div class="cpTitle"></div>
+					<div class="cpDepartment"></div>
+					<div class="cpTel"></div>
+					<div class="cpEmail"></div>
+				</div>
+				<a href="#" class="btnEmail"></a>
+				<div class="yellowDiv"></div>
+			</div>
+		</div>
+	<!--<div class="clearfix moveUpDiv">
+    <div class="leftNav whoWeAreNav">
+      <div class="active"><a href="javascript:;">GLOBAL REVENUE RANKING</a></div>
+      <div><a href="number-of-offices.html">NUMBER OF OFFICES</a></div>
+      <div><a href="square-foot.html">PROPERTY MANAGEMENT</a></div>
+      <div><a href="project-management.html">PROJECT MANAGEMENT</a></div>
+      <div><a href="number-of-employees.html">NUMBER OF EMPLOYEES</a></div>
+      <div><a href="global-revenue.html">GLOBAL REVENUE</a></div>
+      <div><a href="accolade.html">ACCOLADES</a></div>
+    </div>
+    <div class="animateCotentContainer">
+      <div class="logo_small"></div>
+      <img src="../../images/whoWeAre/img_ranking_1.png" alt="" style="top:90px; z-index:9;" class="slideIn_ranking_1" /> <img src="../../images/whoWeAre/img_ranking_2.png" alt="" style="top:231px; z-index:10;" class="slideIn_ranking_2" /> <img src="../../images/whoWeAre/img_ranking_3.png" alt="" style="top:555px; z-index:8;" class="slideIn_ranking_3" /> <img id="ranking4" src="../../images/whoWeAre/img_ranking_4.png" alt="" style="z-index:7; top:1px; right:55px;" class="bounceInRight" /> </div>
+  </div>-->
+</div>
+<script type="text/javascript">
+var isiPad = navigator.userAgent.match(/iPad/i) != null;
+
+if(isiPad){
+	$('#topNav').addClass('ipadMargin')
+}
+
+
+var isMacLike = navigator.userAgent.match(/(Mac|iPhone|iPod|iPad)/i)?true:false;
+
+if(isMacLike){
+  $('#topNav').addClass('ipadMargin')
+}
+
+if ($.browser.msie  && parseInt($.browser.version, 10) > 7) {
+ $('#topNav').addClass('ipadMargin')
+}
+
+initTopNav();
+initBreadcumb();
+
+function initMap(id, option)
+{
+	var div = d.getElementById(id);
+	var img = div.getElementsByTagName('IMG')[0];
+	//var closeBtn = d.getElementById('closeBtn');
+	var closeBtn = getElementsByClassName(div, 'closeBtn')[0];
+	
+	if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+		div.ontouchstart = function()
+		{
+			if(this.className == ''){
+				$('#mapBtnControl > div').each(function(){
+					$(this).removeClass('active');
+					$(this).css('z-index',10);
+					$(this).children("img").css('z-index',0);
+				})
+				this.className += ' active';		
+				div.style.zIndex = 999;
+				img.style.zIndex = 999;
+				initBackgroundChange(option)
+			}else{
+				this.className = '';
+				setTimeout(function(){img.style.zIndex = ''; img.style.zIndex = '';}, 800);
+				initBackgroundChange(4)
+			}
+		}
+	}else{	
+		div.onclick = function()
+		{
+			if(this.className == '')
+			{
+				$('#mapBtnControl > div').each(function(){
+					$(this).removeClass('active');
+					$(this).css('z-index',10);
+					$(this).children("img").css('z-index',0);
+				})
+				this.className += ' active';
+				div.style.zIndex = 999;
+				img.style.zIndex = 999;
+				initBackgroundChange(option)
+			}else{
+				this.className = '';
+				setTimeout(function(){img.style.zIndex = ''; img.style.zIndex = '';}, 800);
+				initBackgroundChange(4)
+			}
+		}
+	}
+}
+
+
+function initBackgroundChange(option)
+{
+	switch (option)
+	{
+		case 0:
+			$('.globalFootprintContainer').removeClass('asiaBg').removeClass('europeBg').removeClass('africaBg').addClass('americaBg');
+			break;
+		case 1:
+			$('.globalFootprintContainer').removeClass('asiaBg').removeClass('americaBg').removeClass('africaBg').addClass('europeBg');
+			break;
+		case 2:
+			$('.globalFootprintContainer').removeClass('europeBg').removeClass('americaBg').removeClass('africaBg').addClass('asiaBg');
+			break;
+		case 3:
+			$('.globalFootprintContainer').removeClass('europeBg').removeClass('americaBg').removeClass('asiaBg').addClass('africaBg');
+			break;
+		case 4:
+			$('.globalFootprintContainer').removeClass('europeBg').removeClass('americaBg').removeClass('asiaBg').removeClass('africaBg');
+			break;
+	}
+}
+//initBackgroundChange();
+initMap('btnEuropeDiv', 1);
+initMap('btnSouthAfricaDiv', 3);
+initMap('btnAustralasiaDiv', 2);
+initMap('btnIndiaDiv', 2);
+initMap('btnAsiaDiv', 2);
+initMap('btnUKDiv', 1);
+initMap('btnUSADiv', 0);
+</script>
+</body>
+</html>

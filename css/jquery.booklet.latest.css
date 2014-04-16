@@ -1,0 +1,131 @@
+/*
+ * jQuery Booklet Plugin
+ * Copyright (c) 2010 - 2013 William Grauvogel (http://builtbywill.com/)
+ *
+ * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
+ *
+ * Version : 1.4.2
+ *
+ * Originally based on the work of:
+ *	1) Charles Mangin (http://clickheredammit.com/pageflip/)
+ */
+	.booklet         {width:800px; height:600px; position:absolute; margin:0 auto 10px; overflow:visible !important; top:0; left:0;}
+	.booklet .b-page {left:0; top:0; position:absolute; overflow:hidden; padding:0; outline:1px solid transparent;}
+	
+	.booklet .b-pN  {}
+	.booklet .b-p0  {}
+	.booklet .b-p1  {}
+	.booklet .b-p2  {}    
+	.booklet .b-p3  {}
+	.booklet .b-p4  {}
+	   
+   	/* Page Wrappers */
+	.booklet .b-wrap       {top:0; position:absolute;}
+	.booklet .b-wrap-left  {background:#fff;}
+	.booklet .b-wrap-right {background:#efefef;}
+	
+	.booklet .b-pN .b-wrap,
+	.booklet .b-p1 .b-wrap,
+	.booklet .b-p2 .b-wrap,
+	.booklet .b-p3 .b-wrap,
+	.booklet .b-p4 .b-wrap  {left:0;}
+	.booklet .b-p0 .b-wrap  {right:0;}
+	
+   	/* Custom Page Types */
+	.booklet .b-page-blank  {padding:0; width:100%; height:100%;}
+	.booklet .b-page-cover  {padding:0; width:100%; height:100%; background:#925C0E;}
+	.booklet .b-page-cover h3  {color:#fff; text-shadow:0px 1px 3px #222;}
+   
+   	/* Page Numbers */
+	.booklet .b-counter {bottom:10px; position:absolute; display:block; width:25px; height:20px; background:#ccc; color:#444; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:10px; padding:5px 0 0;}
+	.booklet .b-wrap-left  .b-counter  {left:10px;}
+	.booklet .b-wrap-right .b-counter {right:10px;}
+   
+   	/* Page Shadows */
+	.booklet .b-shadow-f  {right:0; top:0; position:absolute; opacity:0; background-image:url("images/shadow-top-forward.png"); background-repeat:repeat-y; background-position:100% 0;}
+	.booklet .b-shadow-b  {left:0;  top:0; position:absolute; opacity:0; background-image:url("images/shadow-top-back.png");    background-repeat:repeat-y; background-position:0 0;}
+	
+	.booklet .b-p0 {background-image:url("images/shadow.png"); background-repeat:repeat-y; background-position:100% 10px;}
+	.booklet .b-p3 {background-image:url("images/shadow.png"); background-repeat:repeat-y; background-position:0 10px;}
+	
+   	/* Overlay Controls */
+	.booklet .b-grab     {cursor: url("images/openhand.cur"), default;}
+	.booklet .b-grabbing {cursor: url("images/closedhand.cur"), default;}
+	
+   	/* Overlay Controls */
+	.booklet .b-overlay      {top:0; position:absolute; height:100%; width:50%;}
+	.booklet .b-overlay-prev {left:0;}
+	.booklet .b-overlay-next {right:0;}
+	
+   	/* Tab Controls */
+	.booklet .b-tab        {background:#000; height:40px; width:100%; padding:10px 0 0; text-align:center; color:#ccc; position:absolute; font-size:11px;}
+	.booklet .b-tab-prev   {left:0;}
+	.booklet .b-tab-next   {right:0;}
+	.booklet .b-tab:hover  {background:#aaa; color:#000;}	
+	
+   	/* Arrow Controls */
+	/*.booklet .b-arrow          {display:block; position:absolute; text-indent:-9999px; top:0; height:100%; width:30px;}
+	.booklet .b-arrow div      {display:none; text-indent:-9999px; height:545px; width:30px; position:absolute; left:0;}
+	.booklet .b-arrow-next     {right:-29px;}
+	.booklet .b-arrow-prev     {left:-29px;}
+	.booklet .b-arrow-next div {background:url(../images/btn_flip_next.png) no-repeat top right;}
+	.booklet .b-arrow-prev div {background:url(../images/btn_flip_prev.png) no-repeat top left;}*/
+	
+	.b-controls			{width:774px; height:545px; position:absolute; top:-253px; left:-387px;}
+	.b-arrow          {display:block; position:absolute; text-indent:-9999px; top:0; height:100%; width:30px;}
+	.b-arrow div      {display:none; text-indent:-9999px; height:545px; width:30px; position:absolute; left:0; opacity:0.4;}
+	.b-arrow div:hover{opacity:1;}
+	.b-arrow-next     {right:-29px;}
+	.b-arrow-prev     {left:-29px;}
+	.b-arrow-next div {background:url(../images/btn_flip_next.png) no-repeat top right;}
+	.b-arrow-prev div {background:url(../images/btn_flip_prev.png) no-repeat top left;}
+	
+	.zoomArrow			   	{width:966px; height:631px; left:-483px; top:-296px;}
+	.zoomArrow .b-arrow    	{z-index:1000 !important; width:20px;}
+	.zoomArrow .b-arrow div	{background-position:center!important; width:20px; height:631px; background-color:#626262}
+		
+/* @z-index fix (needed for older IE browsers)
+----------------------------------------*/
+
+    body              {z-index:0;}
+    .b-menu           {z-index:100; position:relative;}
+    .b-selector       {z-index:100;}
+    .booklet          {z-index:10;}
+    .b-pN             {z-index:10;}
+    .b-p0             {z-index:30;}
+    .b-p1             {z-index:20;}
+    .b-p2             {z-index:20;}
+    .b-p3             {z-index:30;}
+    .b-p4             {z-index:10;}
+    .b-prev           {z-index:40;}
+    .b-next           {z-index:40;}
+    .b-counter        {z-index:40;}
+	
+/* @Menu Items
+----------------------------------------*/
+	.b-menu {height:47px; /*padding:0 0 10px;*/ z-index:1000; width: 462px;}
+	
+	.b-selector             {height:47px; position:relative; float:right; border:none; color:#cecece; cursor:pointer; font:normal 12px "Myriad Pro", Myriad, "DejaVu Sans Condensed","Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+	.b-selector .b-current  {/*padding:8px 15px 12px;*/ line-height:20px; min-width:47px; height:47px; display:block; background:#000; text-align:center; background:url(../images/reports/bg_contentTable.png) no-repeat 15px 18px #3b3b3b;}
+	.b-selector-page        {width:auto; /*margin-left:15px;*/ float:left;}
+	.b-selector-chapter     {width:auto;}
+	
+	.b-selector:hover            {color:#fff; background-position:15px -82px;}
+	.b-selector:hover .b-current, .b-selector.onActive .b-current {background-color:#FFF100!important; background-position:15px -82px !important;}
+	.b-selector .selectorPadding {/*padding:50px 0 0 0;*/ position:absolute; top:0; left:47px; background:#3B3B3B; overflow:hidden; width:415px;}
+	.b-selector ul               {overflow:hidden; margin:0; list-style:none !important;  width:415px; background:url(../images/bg_link_border.png) repeat-x top #3b3b3b;}
+	.b-selector li               {border:none; background:url(../images/bg_link_border.png) repeat-x bottom;}
+	.b-selector li:hover			  {background-color:#000;}
+	.b-selector a                {color:#7E7E7E; text-decoration:none; display:block; padding:15px 22px; font-size:16px; font-weight:bold; font-family:Arial, Helvetica, sans-serif!important;}
+	.b-selector a .b-text        {float:left; clear:none;}
+	.b-selector a .b-num         {float:right; clear:none;}
+	.b-selector a:hover          {color:#fff;}
+		
+	.b-wrap img { 
+    image-rendering: optimizeSpeed;             /*                     */
+    image-rendering: -moz-crisp-edges;          /* Firefox             */
+    image-rendering: -o-crisp-edges;            /* Opera               */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+    }

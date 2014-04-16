@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Who We Are | Savills SRES</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<link type="text/css" rel="stylesheet" href="../css/reset.css" />
+<link type="text/css" rel="stylesheet" href="../css/global.css" />
+<link type="text/css" rel="stylesheet" href="../css/animate.css" />
+<link type="text/css" rel="stylesheet" href="../css/jquery.mobile-1.3.0.css" />
+<link type="text/css" rel="stylesheet" href="../css/jquery.jscrollpane.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../css/print.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../js/modernizr-2.0.6.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script src="../js/sitestructure.js"></script>
+<script src="../js/global.js"></script>
+
+</head>
+<body id="page-id-1">
+<div id="mainContainer">
+	<script type="text/javascript">
+		genTopNav();
+	</script>
+	<div class="mainContent withBreadcumb" style="background:url(../images/whoWeAre/who_we_are_LANDING.jpg) no-repeat 0 6px;height: 638px;">
+		<img src="../images/whoWeAre/img_landing.png" alt="" style="padding:77px 0 0 323px;"/>
+		<div class="indexPageContent" style="width:720px;">Savills is a global real estate services provider <span>founded in 1855 and is listed on the London Stock Exchange</span>. SRES combines the best people from our global network who lead the occupier-facing advisory services. Under the umbrella of SRES we provide full service corporate real estate solutions, encompassing global Transaction Management, Property Management, Facilities Management and Savills Earth consultancy to Tenant Representation roles in any given city of the world. This section gives you access to our people, their areas of expertise, our awards, locations and SRES by numbers.</div>
+		<div class="indexContentBtnContainer">
+			<!--<img src="../images/whoWeAre/img_four_btn.png" alt="" style="" border="0" usemap="#Map" />			
+			<map name="Map" id="Map">
+				<area shape="rect" coords="0,-2,126,134" href="history.html" />
+				<area shape="rect" coords="156,0,278,136" href="our-partners.html" />
+				<area shape="rect" coords="311,-3,436,139" href="our-team-apac.html" />
+				<area shape="rect" coords="465,1,664,259" href="savills-by-numbers/global-revenue-ranking.html" />
+			</map>-->
+			<div class="clearfix" style="margin:0 auto; width:560px;">
+				<a href="history.html" class="indexBtn btn_history"><img src="../images/whoWeAre/btn_index_history.png" alt="History" /></a>
+				<a href="our-partners.html" class="indexBtn btn_partners"><img src="../images/whoWeAre/btn_index_partners.png" alt="Our Partners" /></a>
+				<a href="our-team-apac.html" class="indexBtn btn_team"><img src="../images/whoWeAre/btn_index_team.png" alt="Our Team" /></a>
+				<a href="savills-by-numbers/global-revenue-ranking.html" class="indexBtn btn_savByNum last"><img src="../images/whoWeAre/btn_index_savByNum.png" alt="Savillsby Numbers" /></a>
+			</div>
+		</div>
+	</div>
+	<div id="overlay"></div>
+		<div id="researchReportContactOverlay">
+			<div id="researchReportContactOverlayContent">
+				<div class="closeBtn"></div>
+				<div class="imgContainer"></div>
+				<div class="basicInfo">
+					<div class="contactPerson"></div>
+					<div class="cpTitle"></div>
+					<div class="cpDepartment"></div>
+					<div class="cpTel"></div>
+					<div class="cpEmail"></div>
+				</div>
+				<a href="#" class="btnEmail"></a>
+				<div class="yellowDiv"></div>
+			</div>
+		</div>
+</div>
+<script type="text/javascript">
+var isiPad = navigator.userAgent.match(/iPad/i) != null;
+
+if(isiPad){
+	$('#topNav').addClass('ipadMargin')
+}
+
+
+var isMacLike = navigator.userAgent.match(/(Mac|iPhone|iPod|iPad)/i)?true:false;
+
+if(isMacLike){
+  $('#topNav').addClass('ipadMargin')
+}
+
+if ($.browser.msie  && parseInt($.browser.version, 10) > 7) {
+ $('#topNav').addClass('ipadMargin')
+}
+
+initTopNav();
+initBreadcumb();
+</script>
+</body>
+</html>
