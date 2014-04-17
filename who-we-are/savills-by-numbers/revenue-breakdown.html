@@ -40,141 +40,71 @@
 }
 </style>
 <style>
-
 @-webkit-keyframes showUp { from {opacity:0.2;} to {opacity:1;} }
-
 @-moz-keyframes showUp { from {opacity:0.2;} to {opacity:1;} }
-
 @keyframes showUp { from {opacity:0.2;} to {opacity:1;} }
-
-
-
 .showUp {
-
 	 opacity:0; /* make things invisible upon start */
-
     -webkit-animation:showUp ease-in-out 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-
     -moz-animation:showUp ease-in-out 1;
-
     animation:showUp ease-in-out 1;
-
  
-
     -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-
     -moz-animation-fill-mode:forwards;
-
     animation-fill-mode:forwards;
-
  
-
  	 -webkit-animation-delay: 0s;
-
 	 -moz-animation-delay: 0s;
-
 	 animation-delay: 0s;	
-
 	
-
     -webkit-animation-duration:500ms;
-
     -moz-animation-duration:500ms;
-
     animation-duration:500ms;
-
 }
-
 @-webkit-keyframes showUp1 { from {opacity:0.2;} to {opacity:1;} }
-
 @-moz-keyframes showUp1 { from {opacity:0.2;} to {opacity:1;} }
-
 @keyframes showUp1 { from {opacity:0.2;} to {opacity:1;} }
-
-
-
 .showUp1 {
-
 	 opacity:0; /* make things invisible upon start */
-
     -webkit-animation:showUp1 ease-in-out 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-
     -moz-animation:showUp1 ease-in-out 1;
-
     animation:showUp1 ease-in-out 1;
-
  
-
     -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-
     -moz-animation-fill-mode:forwards;
-
     animation-fill-mode:forwards;
-
  
-
  	 -webkit-animation-delay: 0.5s;
-
 	 -moz-animation-delay: 0.5s;
-
 	 animation-delay: 0.5s;	
-
 	
-
     -webkit-animation-duration:500ms;
-
     -moz-animation-duration:500ms;
-
     animation-duration:500ms;
-
 }
-
 @-webkit-keyframes showUp2 { from {opacity:0.2;} to {opacity:1;} }
-
 @-moz-keyframes showUp2 { from {opacity:0.2;} to {opacity:1;} }
-
 @keyframes showUp2 { from {opacity:0.2;} to {opacity:1;} }
-
-
-
 .showUp2 {
-
 	 opacity:0; /* make things invisible upon start */
-
     -webkit-animation:showUp2 ease-in-out 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-
     -moz-animation:showUp2 ease-in-out 1;
-
     animation:showUp2 ease-in-out 1;
-
  
-
     -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-
     -moz-animation-fill-mode:forwards;
-
     animation-fill-mode:forwards;
-
  
-
  	 -webkit-animation-delay: 1.8s;
-
 	 -moz-animation-delay: 1.8s;
 	 
 	 animation-delay: 1.8s;
-
 	
-
     -webkit-animation-duration:200ms;
-
     -moz-animation-duration:200ms;
-
     animation-duration:200ms;
-
 }
-
 .container{position:absolute; top:130px; right:154px;}
-
 h1{
 font-family: "Noto Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
 font-size:3em;
@@ -184,11 +114,9 @@ color: #999;
 font-weight: 100;
 text-shadow:-1px 1px 0px #fff   
 }
-
 /* #Canvas Element Circular charts
 ================================================== */
 canvas, video {display: inline-block;}
-
 .stats-container {
 margin: 0;
 padding: 0;
@@ -196,17 +124,14 @@ list-style: none;
 text-align: center;
 width:120px;
 }
-
 .stats-container li {
 display: inline-block;
 margin: 0 4% 5px;
 position: relative;
 }
-
 .circular-stat {
 position: relative;
 }
-
 .circular-stat .digit-label {
 display:none;
 color:  #FFF;
@@ -227,13 +152,11 @@ overflow: hidden;
 -ms-box-sizing: border-box;
 box-sizing: border-box;
 }
-
-.stats-container li {margin: 0 0 37px 0;}
-
+.stats-container li {margin: 0 0 27px 0;}
 .canvas .ieOnlyPieChart{display:none; position:absolute;}
 .no-canvas .ieOnlyPieChart{display:block;}
 </style>
-<body id="page-id-17">
+<body id="page-id-238">
 <div id="mainContainer">
 	<script type="text/javascript">
 		genTopNav();
@@ -245,18 +168,13 @@ box-sizing: border-box;
 				<div id="regionDiv">
 					<div class="panelContentTitle">type</div>
 					<div class="regionOption"> 
-						<!---->
-						 
 						<a href="number-of-offices.html">Number of Offices</a> 
-						<a href="property-management.html">Property Management</a> 
-						<a href="square-footage.html">Square Footage</a>
-						<a href="project-management.html">Project Management</a> 
-						<a href="number-of-employees.html">Number of Employees</a> 
-						 
-						 
-						
-						<a href="number-of-transaction.html">Number of Transactions</a>
-						<a href="#" class="active">Savills Revenue Stream</a>
+                        <a href="number-of-employees.html">Number of Employees</a>
+                        <a href="property-managed.html">Property Managed</a> 
+                        <a href="property-and-facilities-management.html">Property and Facilities  Management APAC</a> 
+                        <a href="project-management.html">Project Management</a> 
+                        <a href="leasing-apac.html">Leasing APAC</a>
+                        <a href="javascript:;" class="active">Savills Revenue Stream</a>
 					</div>
 				</div>
 			</div>
@@ -267,8 +185,8 @@ box-sizing: border-box;
 				<ul class="graphs stats-container centered biggie">
 					<li class="animated" data-provide="circular" data-fill-color="#FFED53" data-percent="true" data-initial-value="21" data-max-value="100" style="width: 106px; height: 106px;"> </li>
 					<li class="animated" data-provide="circular" data-fill-color="#FFED53" data-percent="true" data-initial-value="3" data-max-value="100" style="width: 106px; height: 106px;"></li>
-					<li class="animated" data-provide="circular" data-fill-color="#FFED53" data-percent="true" data-initial-value="37" data-max-value="100" style="width: 106px; height: 106px;"></li>
-					<li class="animated" data-provide="circular" data-fill-color="#FFED53" data-percent="true" data-initial-value="38" data-max-value="100" style="width: 106px; height: 106px;"></li>
+					<li class="animated" data-provide="circular" data-fill-color="#FFED53" data-percent="true" data-initial-value="36" data-max-value="100" style="width: 106px; height: 106px;"></li>
+					<li class="animated" data-provide="circular" data-fill-color="#FFED53" data-percent="true" data-initial-value="40" data-max-value="100" style="width: 106px; height: 106px;"></li>
 				</ul>
 			</div>
 			<div id="wrapper" class="showUp1">
@@ -277,35 +195,11 @@ box-sizing: border-box;
 						<span class="bar"></span>
 						<span class="percent"></span>					
 					</li>
-					<li title="83" class="grey">
+					<li title="90" class="grey">
 						<span class="bar"></span>
 						<span class="percent"></span>					
 					</li>
-					<li title="78" class="grey" style="margin-bottom:80px;">
-						<span class="bar"></span>
-						<span class="percent"></span>					
-					</li>
-					<li title="100" class="yellow">
-						<span class="bar"></span>
-						<span class="percent"></span>					
-					</li>
-					<li title="88" class="grey">
-						<span class="bar"></span>
-						<span class="percent"></span>					
-					</li>
-					<li title="80" class="grey" style="margin-bottom:83px;">
-						<span class="bar"></span>
-						<span class="percent"></span>					
-					</li>
-					<li title="100" class="yellow">
-						<span class="bar"></span>
-						<span class="percent"></span>					
-					</li>
-					<li title="93" class="grey">
-						<span class="bar"></span>
-						<span class="percent"></span>					
-					</li>
-					<li title="81" class="grey" style="margin-bottom:86px;">
+					<li title="75" class="grey" style="margin-bottom:71px;">
 						<span class="bar"></span>
 						<span class="percent"></span>					
 					</li>
@@ -317,14 +211,38 @@ box-sizing: border-box;
 						<span class="bar"></span>
 						<span class="percent"></span>					
 					</li>
-					<li title="89" class="grey">
+					<li title="80" class="grey" style="margin-bottom:70px;">
+						<span class="bar"></span>
+						<span class="percent"></span>					
+					</li>
+					<li title="100" class="yellow">
+						<span class="bar"></span>
+						<span class="percent"></span>					
+					</li>
+					<li title="91" class="grey">
+						<span class="bar"></span>
+						<span class="percent"></span>					
+					</li>
+					<li title="85" class="grey" style="margin-bottom:74px;">
+						<span class="bar"></span>
+						<span class="percent"></span>					
+					</li>
+					<li title="100" class="yellow">
+						<span class="bar"></span>
+						<span class="percent"></span>					
+					</li>
+					<li title="87" class="grey">
+						<span class="bar"></span>
+						<span class="percent"></span>					
+					</li>
+					<li title="77" class="grey">
 						<span class="bar"></span>
 						<span class="percent"></span>					
 					</li>
 				</ul>
 			</div>
-			<img src="../../images/whoWeAre/img_savills_revenue_stream_2.png" style="top:128px; left:215px;" class="showUp2" />
-			<img src="../../images/whoWeAre/img_savills_revenue_stream_pie.png" style="left: 454px; top: 117px;" class="ieOnlyPieChart" />
+			<img src="../../images/whoWeAre/img_savills_revenue_stream_2.png" style="top:126px; left:215px;" class="showUp2" />
+			<img src="../../images/whoWeAre/img_savills_revenue_stream_pie.png" style="left: 454px; top: 113px;" class="ieOnlyPieChart" />
 		</div>
 	</div>
 	<div id="overlay"></div>
@@ -346,25 +264,18 @@ box-sizing: border-box;
 </div>
 <script type="text/javascript">
 var isiPad = navigator.userAgent.match(/iPad/i) != null;
-
 if(isiPad){
 	$('#topNav').addClass('ipadMargin')
 }
-
-
 var isMacLike = navigator.userAgent.match(/(Mac|iPhone|iPod|iPad)/i)?true:false;
-
 if(isMacLike){
   $('#topNav').addClass('ipadMargin')
 }
-
 if ($.browser.msie  && parseInt($.browser.version, 10) > 7) {
  $('#topNav').addClass('ipadMargin')
 }
-
 initTopNav();
 initBreadcumb();
-
 (function(c, e, l, j) {
     var d = function(a, b) {
         arguments.length && this.init(a, b);
@@ -435,7 +346,6 @@ initBreadcumb();
             initialValue: 0,
             maxValue: 100,
             label: "",
-
             /*labelClassName: "text-label",
             title: "",
             
@@ -466,7 +376,6 @@ initBreadcumb();
         },
         _parseOptions: function() {
             var a = Math.max(this.element.width(), this.element.height()) / 2, b = this.options.outerThickness;
-
             this.attributes = c.extend({}, this.attributes, {
                 currentValue: 0,
                 radius: {
@@ -477,12 +386,12 @@ initBreadcumb();
             });
         },
         _createCanvas: function(a, b) {
-            if (0 === a || 0 === b) return console.log("Invalid canvas dimensions"), !1;
+            if (0 === a || 0 === b) return/* console.log("Invalid canvas dimensions"), !1*/;
             var g = l.createElement("canvas");
             g.width = a * d.PIXEL_RATIO;
             g.height = b * d.PIXEL_RATIO;
             1 < d.PIXEL_RATIO && (g.style.width = a + "px", g.style.height = b + "px");
-            if (!g.getContext) if ("undefined" !== typeof G_vmlCanvasManager) G_vmlCanvasManager.initElement(g); else return console.log("Your browser does not support HTML5 Canvas, or excanvas is missing on IE"), !1;
+            if (!g.getContext) if ("undefined" !== typeof G_vmlCanvasManager) G_vmlCanvasManager.initElement(g); else return/* console.log("Your browser does not support HTML5 Canvas, or excanvas is missing on IE"), !1*/;
             return g;
         },
         _attachLabels: function() {

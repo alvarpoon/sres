@@ -22,6 +22,7 @@ if (levelArray.length == 0) getLevel();
 //}
 
 $(document).ready(function(){
+
 	if(isiPad){
 		$('.printThisPage').css('display','none');
 		$('.toolsSubNav').css('right',103);
@@ -3405,7 +3406,7 @@ function genTopNav(){
 	str +='<span></span>';
 	str +='</div>';
 	str +='<div class="subSectionItem" id="benchmarking">';
-	str +='<a class="page-class-235" href="benchmarking.html">Benchmarking</a>';
+	str +='<a class="page-class-235" href="' + homeHref + 'our-research/benchmarking.html">Benchmarking</a>';
 	str +='<span></span>';
 	str +='</div>';
 	str +='</div>';
