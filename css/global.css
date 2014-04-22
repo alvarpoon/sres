@@ -601,6 +601,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .ourServiceContainer{float:left; width: 757px; /*padding:40px 0 0 40px;*/ position:relative; margin-left:-5px; z-index:-1;}
 .introHeadline{font-size:20px; font-weight:bold; color:#FFEC53; line-height:30px; padding-bottom:15px; width:583px;}
 .introSubheadline{color:#c5c5c5;  padding-top:15px; font-size:14px; font-weight:bold; line-height:22px;}
+.introSubheading{padding: 30px 0 0; font-size:20px; font-weight:bold; color:#fff;}
 .introList li{ padding:0 0 20px 15px; font-size:20px; font-weight:bold; color:#fff;}
 
 .ourServiceNonInteractiveIntroContainer{padding-top:50px;}

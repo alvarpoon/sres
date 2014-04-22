@@ -3167,7 +3167,16 @@ function initResearchInnerpageContact()
 }
 
 function initLeadership()
-	{
+{
+
+		ourTeamArray.sort(function (a, b) {
+		    if (parseInt(a.id) > parseInt(b.id))
+		      return 1;
+		    if (parseInt(a.id) < parseInt(b.id))
+		      return -1;
+		    return 0;
+		});
+
 		//ourTeamContainerArray = d.getElementById('teamLogoContainer').getElementsByTagName('IMG');
 		ourTeamContainerArray = getElementsByClassName(d.getElementById('teamLogoContainer'), 'leadershipItem', 1);
 		var ourTeamOverlay = d.getElementById('ourTeamOverlay');
@@ -3214,7 +3223,12 @@ function initLeadership()
 		
 		function setContent(num)
 		{
-			var empOverlayImg = createImg('../../images/ourTeam/'+ourTeamArray[num].empName.toLowerCase().replace(/['"]/g,'')+'_overlay.png');
+			var homeHref = '';
+			for(var k=0; k<levelArray.length-1; k++)
+			{
+				homeHref += '../';
+			}
+			var empOverlayImg = createImg(homeHref+'images/ourTeam/'+ourTeamArray[num].empName.toLowerCase().replace(/['"]/g,'')+'_overlay.png');
 			imgContainer.appendChild(empOverlayImg);
 			
 			empNameDiv.innerHTML = ourTeamArray[num].empName;
@@ -4052,6 +4066,7 @@ function genTopNav(){
 	str +='<ul>';
 	str +='<li><a class="page-class-21" href="' + homeHref + 'where-we-play/apac-footprint-city-guide/beijing.html">Beijing</a></li>';
 	str +='<li><a class="page-class-22" href="' + homeHref + 'where-we-play/apac-footprint-city-guide/hk.html">Hong Kong</a></li>';
+	str +='<li><a class="page-class-239" href="' + homeHref + 'where-we-play/apac-footprint-city-guide/india/clustering.html">India</a></li>';
 	str +='<li><a class="page-class-23" href="' + homeHref + 'where-we-play/apac-footprint-city-guide/manila.html">Manila</a></li>';
 	str +='<li><a class="page-class-24" href="' + homeHref + 'where-we-play/apac-footprint-city-guide/melbourne.html">Melbourne</a></li>';
 	str +='<li><a class="page-class-25 page-class-26 page-class-27 page-class-28" href="' + homeHref + 'where-we-play/apac-footprint-city-guide/seoul/index.html">Seoul</a></li>';
