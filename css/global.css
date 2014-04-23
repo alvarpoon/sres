@@ -906,11 +906,11 @@ body.footprint-map #leftNavPanel{width:275px;}
     color: #FDE651;
 }
 .choiceOfViewContainer .btn_grid_view {
-    background: url("../images/bg_grid_view.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("../images/bg_grid_view.png") no-repeat scroll 0 0;
     margin-right: 25px;
 }
 .choiceOfViewContainer .btn_list_view {
-    background: url("../images/bg_list_view.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);
+    background: url("../images/bg_list_view.png") no-repeat scroll 0 2px;
 }
 .choiceOfViewContainer .btn_list_view:hover, .choiceOfViewContainer .btn_list_view.active {
     background-position: 0 -48px;
