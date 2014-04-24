@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Our Partners | Savills SRES</title>
+<title>Benchmarking | Savills SRES</title>
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <link type="text/css" rel="stylesheet" href="../css/reset.css" />
 <link type="text/css" rel="stylesheet" href="../css/global.css" />
@@ -15,6 +15,10 @@
 <script src="../js/global.js"></script>
 <script type="text/javascript" src="../js/jquery.touchSwipe.js"></script>
 <script type="text/javascript" src="../js/stupidtable.min.js"></script>
+<script>
+var pageContactArray = new Array();
+pageContactArray = [{contactPersonImg:"images/reports/img_simon_smith.jpg", contactPerson:"Simon Smith", cpTitle:"Senior Director", cpDepartment:"Research & Consultancy", cpTel:"+852 2842 4573", cpEmail:"ssmith@savills.com.hk"}]
+</script>
 </head>
 <body id="page-id-235">
 <div id="mainContainer" style="height:inherit;overflow:visible;"> 
@@ -558,8 +562,23 @@
         </div>
       </div>
     </div>
-    <div id="overlay"></div>
   </div>
+  <div id="overlay"></div>
+    <div id="researchReportContactOverlay">
+		<div id="researchReportContactOverlayContent">
+			<div class="closeBtn"></div>
+			<div class="imgContainer"></div>
+			<div class="basicInfo">
+				<div class="contactPerson"></div>
+				<div class="cpTitle"></div>
+				<div class="cpDepartment"></div>
+				<div class="cpTel"></div>
+				<div class="cpEmail"></div>
+			</div>
+			<a href="#" class="btnEmail"></a>
+			<div class="yellowDiv"></div>
+		</div>
+	</div>
 </div>
 <script type="text/javascript">
 var isiPad = navigator.userAgent.match(/iPad/i) != null;
@@ -619,7 +638,6 @@ $(function(){
 
 initTopNav();
 initBreadcumb();
-initPartner();
 </script>
 </body>
 </html>

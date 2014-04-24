@@ -584,7 +584,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .historyTimelineContent .yearContentContainer{float:left; margin-left:35px;}
 .historyTimelineContent .yearContentContainer div{font-weight:bold; font-size:19px; color:#B2B2B2; margin-top:26px; width:407px; line-height:30px;}
 .historyContent{position:relative; width:716px; background:#fff; height:189px; padding:36px 44px 0 264px;}
-.historyContent div{font-size:22px; font-weight:bold; color:#8D9FAF; line-height:30px;}
+.historyContent div{font-size:21px; font-weight:bold; color:#8D9FAF; line-height:27px;}
 .historyContent .featureText{color:#00636F;}
 .historyContent #btn_play_pause{background:url(../images/whoWeAre/btn_play.png) no-repeat; position:absolute; display:block; width:125px; height:125px; top:36px; left:34px;}
 .historyContent #btn_play_pause.active{background-position:0 -150px;}
@@ -603,6 +603,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .introSubheadline{color:#c5c5c5;  padding-top:15px; font-size:14px; font-weight:bold; line-height:22px;}
 .introSubheading{padding: 30px 0 0; font-size:20px; font-weight:bold; color:#fff;}
 .introList li{ padding:0 0 20px 15px; font-size:20px; font-weight:bold; color:#fff;}
+.serviceRightContentImgContainer{float: left;background-color: #fff;padding: 20px 30px;width: 689px;}
 
 .ourServiceNonInteractiveIntroContainer{padding-top:50px;}
 .ourServiceNonInteractiveIntroContainer .pm_intro_item{cursor:default !important; margin:0 20px;}

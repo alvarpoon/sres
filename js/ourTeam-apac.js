@@ -3,7 +3,7 @@ var ourTeamArray = new Array();
 //Main Sections
 ourTeamArray = [
 
-{id:"0", empName:"Iain Chapman", empTitle:"Managing Director, Strategic Real Estate Services, Asia Pacific", empDepartment:"Regional Commercial Services", telNo:"+852 2842 4223", email:"ichapman@savills.com.hk", location:"Hong Kong, China", experience:"25", languages:"English", expertise:"Legal / Banking / Accounting", workCat:[
+{id:"0", empName:"Iain Chapman", empTitle:"Managing Director", empDepartment:"Regional Commercial Services", telNo:"+852 2842 4223", email:"ichapman@savills.com.hk", location:"Hong Kong, China", experience:"25", languages:"English", expertise:"Legal / Banking / Accounting", workCat:[
 	{cat:'leadership', locale:'china'},
 	{cat:'leadership', locale:'hong kong'},
 	{cat:'leadership', locale:'macau'},
@@ -226,7 +226,7 @@ ourTeamArray = [
 	{cat:'tenant representation', locale:'malaysia'}
 ]},
 {id:"62", empName:"Richard Emerson", empTitle:"Country Manager", empDepartment:"", telNo:"+95 (0) 9 250 515 035", email:"remerson@savills.com.mm", location:"Myanmar", experience:"Over 20", languages:"English", expertise:"All sectors", workCat:[{cat:'tenant representation',locale:'myanmar'}]},
-{id:"5", empName:"Phill Andrew", empTitle:"Managing Director", empDepartment:"Project Management", telNo:"+61 (0) 2 82158922", email:"PAndrew@savills.com.au", location:"Sydney, Australia", experience:"25", languages:"English", expertise:"Management System & Fit-out", workCat:[
+{id:"5", empName:"Phill Andrew", empTitle:"Managing Director", empDepartment:"Project Management", telNo:"+61 (0) 2 82158922", email:"pandrew@savills.com.au", location:"Sydney, Australia", experience:"25", languages:"English", expertise:"Management System & Fit-out", workCat:[
 	{cat:'project management lead', locale:'australia'},
 	{cat:'project management lead', locale:'new zealand'}]},
 {id:"44", empName:"Chris Adam", empTitle:"General Manager", empDepartment:"Project Management - VIC", telNo:"+61 (0) 3 9445 6841", email:"cadam@savills.com.au", location:"Melbourne, Australia", experience:"10", languages:"English", expertise:"Commercial development, refurbishment and fitout, data centres", workCat:[
