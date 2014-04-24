@@ -72,15 +72,7 @@ ourTeamArray = [
 	{cat:'asia pacific account management', locale:'indonesia'}]},
 {id:"10", empName:"Chris Marriott", empTitle:"Chief Executive Officer", empDepartment:"South East Asia", telNo:"+65 6415 3888", email:"cjmarriott@savills.com", location:"Singapore", experience:"Over 20", languages:"English", expertise:"All Sectors", workCat:[{cat:'tenant representation', locale:'singapore'}]},
 {id:"73", empName:"Christian Mancini", empTitle:"Managing Director", empDepartment:"", telNo:"+81 (0) 3 5562 1717", email:"cmancini@savills.asia", location:"Tokyo, Japan", experience:"15", languages:"English, Japanese", expertise:"Investment sales & asset management", workCat:[
-	{cat:'asia pacific account management', locale:'japan'},
-	{cat:'industrial', locale:'japan'},
-	{cat:'intergrated facilities management', locale:'japan'},
-	{cat:'leadership', locale:'japan'},
-	{cat:'project management lead', locale:'japan'},
-	{cat:'retail', locale:'japan'},
-	{cat:'tenant representation', locale:'japan'},
-	{cat:'sustainability', locale:'japan'},
-	{cat:'workspace specialist', locale:'japan'}
+	{cat:'tenant representation', locale:'japan'}
 ]},
 {id:"56", empName:"Mark Price", empTitle:"Chief Executive Officer", empDepartment:"", telNo:"+66 2636 0300", email:"mprice@savills.co.th", location:"Thailand", experience:"28", languages:"English", expertise:"Office leasing & residential", workCat:[
 	{cat:'tenant representation',locale:'thailand'}]},
@@ -371,15 +363,7 @@ ourTeamArray = [
 {id:"20", empName:"Toshihide Honoki", empTitle:"Tenant Representation", empDepartment:"", telNo:"+81 (0) 3 5562 1721", email:"thonoki@savills.co.jp", location:"Tokyo, Japan", experience:"Over 10", languages:"English & Japanese", expertise:"Tenant Representation", workCat:[{cat:'tenant representation',locale:'japan'}]},
 {id:"63", empName:"James Goh", empTitle:"Investments", empDepartment:"Corporate Real Estate", telNo:"+603 2691 9922 Ext. 257", email:"jamesgoh@savillsrahim-co.com", location:"Kuala Lumpur, Malaysia", experience:"15", languages:"English, Malay", expertise:"Divestment, Tenant Representation", workCat:[{cat:'tenant representation', locale:'malaysia'}]},
 {id:"74", empName:"Rosario Carbonell", empTitle:"Senior Manager", empDepartment:"KMC MAG Group", telNo:"+632 403 5519", email:"rosario@kmcmaggroup.com", location:"Manila, Philippines", experience:"5", languages:"English, Filipino", expertise:"Corporate Real Estate", workCat:[
-	{cat:'asia pacific account management', locale:'philippines'},
-	{cat:'industrial', locale:'philippines'},
-	{cat:'intergrated facilities management', locale:'philippines'},
-	{cat:'leadership', locale:'philippines'},
-	{cat:'project management lead', locale:'philippines'},
-	{cat:'retail', locale:'philippines'},
-	{cat:'tenant representation', locale:'philippines'},
-	{cat:'sustainability', locale:'philippines'},
-	{cat:'workspace specialist', locale:'philippines'}
+	{cat:'tenant representation', locale:'philippines'}
 	]},
 {id:"60", empName:"Robert McGrath", empTitle:"Project Director", empDepartment:"Project Management", telNo:"+852 92893250", email:"RMcGrath@savills.asia", location:"Hong Kong", experience:"25", languages:"English", expertise:"Project Planning & Project Delivery", workCat:[{cat:'project management lead',locale:'philippines'}]},
 {id:"49", empName:"Sulian Tan-Wijaya", empTitle:"Senior Director", empDepartment:"Retail & Lifestyle", telNo:"+65 6836 3880", email:"stwijaya@savills.com.sg", location:"Singapore", experience:"10", languages:"English, Mandarin Chinese & Indonesian", expertise:"Retail, F&B, lifestyle, real estate, banking, legal", workCat:[
