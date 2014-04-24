@@ -3867,10 +3867,10 @@ function initLeadershipDrag(){
 				currentPos = parseInt($('.leadershipWrapper .leadershipContainer').css('left'));
 				if (direction == "left")
 				{
-					if(currentPos < -445)
+					if(currentPos < -375)
 					{
-						$('.leadershipWrapper .leadershipContainer').css('left', -452);
-						$('.leadershipDrag').css('left', 382);
+						$('.leadershipWrapper .leadershipContainer').css('left', -375);
+						$('.leadershipDrag').css('left', 313);
 					}else{
 						$('.leadershipWrapper .leadershipContainer').css('left', currentPos+distance*(speed/duration)*-1);
 						$('.leadershipDrag').css('left', (currentPos*-1)/452*382);
@@ -3895,9 +3895,9 @@ function initLeadershipDrag(){
 				if(parseInt($('.leadershipWrapper .leadershipContainer').css('left')) > 0 )
 				{
 					$('.leadershipWrapper .leadershipContainer').animate({'left':0}, 50);
-				}else if(parseInt($('.leadershipWrapper .leadershipContainer').css('left')) < -451 )
+				}else if(parseInt($('.leadershipWrapper .leadershipContainer').css('left')) < -375 )
 				{
-					$('.leadershipWrapper .leadershipContainer').animate({'left':-451}, 50)
+					$('.leadershipWrapper .leadershipContainer').animate({'left':-375}, 50)
 				}
 				
 			}
@@ -3906,9 +3906,9 @@ function initLeadershipDrag(){
 				if(parseInt($('.leadershipWrapper .leadershipContainer').css('left')) > 0 )
 				{
 					$('.leadershipWrapper .leadershipContainer').animate({'left':0}, 50);
-				}else if(parseInt($('.leadershipWrapper .leadershipContainer').css('left')) < -451 )
+				}else if(parseInt($('.leadershipWrapper .leadershipContainer').css('left')) < -375 )
 				{
-					$('.leadershipWrapper .leadershipContainer').animate({'left':-451}, 50)
+					$('.leadershipWrapper .leadershipContainer').animate({'left':-375}, 50)
 				}
 			}
 		},threshold:0,triggerOnTouchEnd : true,excludedElements:"button, input, select, textarea, .noSwipe"});
@@ -3920,7 +3920,7 @@ function initLeadershipDrag(){
 			}else
 				$('.btnLeadershipPrev').css('display', 'block');
 			
-			if(parseInt($('.leadershipContainer').css('left')) <= -450)
+			if(parseInt($('.leadershipContainer').css('left')) <= -375)
 			{
 				$('.btnLeadershipNext').css('display', 'none');
 			}else
@@ -3952,7 +3952,7 @@ function initLeadershipDrag(){
 		})
 		
 		$('.leadershipWrapper .btnLeadershipNext').click(function(){
-			if(parseInt($('.leadershipContainer').css('left')) > -452)
+			if(parseInt($('.leadershipContainer').css('left')) > -375)
 			{
 				var nextLeft = parseInt($('.leadershipContainer').css('left'))-190;
 				if(nextLeft <= -450){

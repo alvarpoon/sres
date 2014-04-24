@@ -915,6 +915,9 @@ body.footprint-map #leftNavPanel{width:275px;}
 .choiceOfViewContainer .btn_list_view:hover, .choiceOfViewContainer .btn_list_view.active {
     background-position: 0 -48px;
 }
+
+.no-csstransitions .fadeIn{opacity:1!important;}
+
 .ourTeamLogoContent{width:742px; position:relative; height:704px; padding-left:10px; float:left;}
 .ourTeamLogoContent .personItem{display:block; float:left; cursor:pointer; /*height: 141px;width: 110px;*/ margin:0 0 5px 5px; position:relative; width:115px; height:165px;}
 .ourTeamLogoContent .personItem .showMoveDiv{display:none;}
