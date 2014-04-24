@@ -62,7 +62,8 @@ ourTeamArray = [
 {id:"57", empName:"Matthew Miller", empTitle:"<span class='block bold'>Managing Principle</span>Corporate Solutions", telNo:"+1 310 943 5100", email:"mmiller@cresa.com", location:"Los Angeles", experience:"Over 25", languages:"English", expertise:"Entertainment and Technology Companies", workCat:['all','usa corporate solutions']},
 {id:"58", empName:"Yann Deschamps", empTitle:"<span class='block bold'>Director</span>Commercial", telNo:"", email:"", location:"Shanghai, China", experience:"Over 12", languages:"English, Mandarin, French & Spanish", expertise:"Commercial, Tenant Representation & Industrial", workCat:['all','usa corporate solutions']},
 {id:"59", empName:"Phillip Infelise", empTitle:"<span class='block bold'>Managing Director</span>Cresa Denver", telNo:"303.302.1616 ext 276 dd", email:"pinfelise@cresa.com", location:"United States", experience:"35", languages:"English", expertise:"Project Management", workCat:['all','project management']},
-{id:"60", empName:"Tim Bretten", empTitle:"<span class='block bold'>Director</span>", telNo:"+44 (0) 161 244 7763", email:"TBretten@savills.com", location:"Manchester", experience:"Over 12", languages:"English", expertise:"Facilities Management & Project Management", workCat:['all','project management']}
+{id:"60", empName:"Tim Bretten", empTitle:"<span class='block bold'>Director</span>", telNo:"+44 (0) 161 244 7763", email:"TBretten@savills.com", location:"Manchester", experience:"Over 12", languages:"English", expertise:"Facilities Management & Project Management", workCat:['all','project management']},
+{id:"61", empName:"Bryan Kidd", empTitle:"<span class='block bold'>Country Manager, India</span>Project Management", telNo:"+91 9535 129604", email:"bkidd@savills.in", location:"Bangalore, India", experience:"5", languages:"English", expertise:"Project Management", workCat:['all','project management']}
 ];
 
 var ourTeamGeneralContent = new Array();
