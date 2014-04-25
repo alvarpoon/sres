@@ -92,7 +92,7 @@ ourTeamArray = [
 	{cat:'intergrated facilities management', locale:'malaysia'},
 	{cat:'intergrated facilities management', locale:'philippines'},
 	{cat:'intergrated facilities management', locale:'indonesia'}]},
-{id:"3", empName:"Dominic Harding", empTitle:"Senior Account Manager, Strategic Real Estate Services, Asia Pacific", empDepartment:"Account Management", telNo:"+65 6415 1078 (Ext 3078)", email:"dharding@savills.com.sg", location:"Singapore", experience:"4", languages:"English", expertise:"Corporate Real Estate", workCat:[
+{id:"3", empName:"Dominic Harding", empTitle:"Senior Account Manager, Strategic Corporate Services, Asia Pacific", empDepartment:"Account Management", telNo:"+65 6415 1078 (Ext 3078)", email:"dharding@savills.com.sg", location:"Singapore", experience:"4", languages:"English", expertise:"Corporate Real Estate", workCat:[
 	{cat:'asia pacific account management', locale:'china'},
 	{cat:'asia pacific account management', locale:'hong kong'},
 	{cat:'asia pacific account management', locale:'macau'},
@@ -109,7 +109,7 @@ ourTeamArray = [
 	{cat:'asia pacific account management', locale:'malaysia'},
 	{cat:'asia pacific account management', locale:'philippines'},
 	{cat:'asia pacific account management', locale:'indonesia'}]},
-{id:"45", empName:"Doris Lam", empTitle:"Account Manager, Business Development Strategic Real Estate Services", empDepartment:"", telNo:"+852 2842 4410", email:"dslam@savills.com.hk", location:"Hong Kong", experience:"8", languages:"English & Cantonese", expertise:"Corporate Real Estate", workCat:[{cat:'asia pacific account management', locale:'china'},
+{id:"45", empName:"Doris Lam", empTitle:"Account Manager, Business Development, Strategic Corporate Services", empDepartment:"", telNo:"+852 2842 4410", email:"dslam@savills.com.hk", location:"Hong Kong", experience:"8", languages:"English & Cantonese", expertise:"Corporate Real Estate", workCat:[{cat:'asia pacific account management', locale:'china'},
 	{cat:'asia pacific account management', locale:'hong kong'},
 	{cat:'asia pacific account management', locale:'macau'},
 	{cat:'asia pacific account management', locale:'taiwan'},
@@ -125,7 +125,7 @@ ourTeamArray = [
 	{cat:'asia pacific account management', locale:'malaysia'},
 	{cat:'asia pacific account management', locale:'philippines'},
 	{cat:'asia pacific account management', locale:'indonesia'}]},
-{id:"64", empName:"James Mann", empTitle:"Senior Account Manager, Strategic Real Estate Services, Asia Pacific", empDepartment:"", telNo:"+852 2842 4276", email:"jmann@savills.com.hk", location:"Hong Kong", experience:"9", languages:"English", expertise:"Corporate Real Estate", workCat:[
+{id:"64", empName:"James Mann", empTitle:"Senior Account Manager, Strategic Corporate Services, Asia Pacific", empDepartment:"", telNo:"+852 2842 4276", email:"jmann@savills.com.hk", location:"Hong Kong", experience:"9", languages:"English", expertise:"Corporate Real Estate", workCat:[
 	{cat:'asia pacific account management', locale:'china'},
 	{cat:'asia pacific account management', locale:'hong kong'},
 	{cat:'asia pacific account management', locale:'macau'},

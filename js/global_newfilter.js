@@ -2324,7 +2324,7 @@ function initContactPopup()
 {
 	
 	var defaultResearchReportArray = new Array();
-	defaultResearchReportArray = [{contactPersonImg:"images/img_sres_popup.jpg", contactPerson:"", cpTitle:"Contact the team at Strategic Real Estate Services", cpDepartment:"", cpTel:"+852 2842 4410", cpEmail:"sres@savills.com"}]
+	defaultResearchReportArray = [{contactPersonImg:"images/img_sres_popup.jpg", contactPerson:"", cpTitle:"Contact the team at Strategic Real Estate Services", cpDepartment:"", cpTel:"+852 2842 4410", cpEmail:"scs@savills.com"}]
 	
 	if($('#researchReportContactOverlay').length > 0){
 		$('#topNav .btnContact').click(function(){

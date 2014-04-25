@@ -10161,7 +10161,7 @@ $.widget( "ui.dialog", {
 
 	_setOption: function( key, value ) {
 		/*jshint maxcomplexity:15*/
-		var isDraggable, isResizable,
+		var isDraggable, iSCSizable,
 			uiDialog = this.uiDialog;
 
 		if ( key === "dialogClass" ) {
@@ -10208,18 +10208,18 @@ $.widget( "ui.dialog", {
 
 		if ( key === "resizable" ) {
 			// currently resizable, becoming non-resizable
-			isResizable = uiDialog.is(":data(ui-resizable)");
-			if ( isResizable && !value ) {
+			iSCSizable = uiDialog.is(":data(ui-resizable)");
+			if ( iSCSizable && !value ) {
 				uiDialog.resizable("destroy");
 			}
 
 			// currently resizable, changing handles
-			if ( isResizable && typeof value === "string" ) {
+			if ( iSCSizable && typeof value === "string" ) {
 				uiDialog.resizable( "option", "handles", value );
 			}
 
 			// currently non-resizable, becoming resizable
-			if ( !isResizable && value !== false ) {
+			if ( !iSCSizable && value !== false ) {
 				this._makeResizable();
 			}
 		}
