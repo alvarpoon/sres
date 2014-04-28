@@ -298,14 +298,20 @@ function initBreadcumb()
 			if(j == levelArray.length-1)
 			{
 				//$('<a>',{text: levelfilter[0].pageName, href: 'javascript:;', class: 'bold'}).appendTo($('#breadcumb'));
-				$('<a>',{text: levelfilter[0].pageName, href: 'javascript:;'}).addClass('bold').appendTo($('#breadcumb'));
+				if(levelfilter[0].pageName != 'List view'){
+					$('<a>',{text: levelfilter[0].pageName, href: 'javascript:;'}).addClass('bold').appendTo($('#breadcumb'));
+				}else{
+					$('#breadcumb a:last-child').addClass('bold');
+				}
+					
 			}else{
 				$('<a>',{text: levelfilter[0].levelName[j], href: homeHref+levelfilter[0].levelLinks[j]}).appendTo($('#breadcumb'));
 			}
 			if(j != levelArray.length-1 && levelArray[j+1] != 'index')
 			{
 				//$('<span>',{class: 'arrow_breadcumb'}).appendTo($('#breadcumb'));
-				$('<span>').addClass('arrow_breadcumb').appendTo($('#breadcumb'));
+				if(levelArray[j+1] != 'list')
+					$('<span>').addClass('arrow_breadcumb').appendTo($('#breadcumb'));
 			}
 		}
 	}
@@ -2235,7 +2241,7 @@ function initOurTeam_apac(viewMode)
 		
 		function setContent(num)
 		{
-			var empOverlayImg = createImg('../images/ourTeam/'+findID(num)[0].empName.toLowerCase().replace(/['"]/g,'')+'_overlay.png');
+			var empOverlayImg = createImg('../../images/ourTeam/'+findID(num)[0].empName.toLowerCase().replace(/['"]/g,'')+'_overlay.png');
 			imgContainer.appendChild(empOverlayImg);
 			
 			empNameDiv.innerHTML = findID(num)[0].empName;
@@ -2346,7 +2352,7 @@ function initOurTeam_apac(viewMode)
 					var itemDivHover = createDiv('', 'showMoveDiv');
 					itemDivHover.innerHTML = "<div>Show more</div>";
 					
-					var img = createImg('../images/ourTeam/'+arr[f].empName.toLowerCase().replace(/['"]/g,'')+'.png', ' ', '', '', '', '', imgClass);
+					var img = createImg('../../images/ourTeam/'+arr[f].empName.toLowerCase().replace(/['"]/g,'')+'.png', ' ', '', '', '', '', imgClass);
 					itemDiv.appendChild(itemDivHover);
 					itemDiv.appendChild(img);
 					
@@ -4044,7 +4050,7 @@ function genTopNav(){
 	str +='<a class="page-class-3" href="' + homeHref + 'who-we-are/our-partners.html">Our Partners</a>';
 	str +='</div>';
 	str +='<div class="subSectionItem">';
-	str +='<a class="page-class-4 page-class-5 page-class-6" href="' + homeHref + 'who-we-are/our-team-apac.html">Our Team</a>';
+	str +='<a class="page-class-4 page-class-5 page-class-6" href="' + homeHref + 'who-we-are/our-team/apac.html">Our Team</a>';
 	str +='</div>';
 	str +='<div class="subSectionItem lastItem">';
 	str +='<a class="page-class-7 page-class-8 page-class-9 page-class-10 page-class-11 page-class-12 page-class-13 page-class-14 page-class-15 page-class-16 page-class-17" href="' + homeHref + 'who-we-are/savills-by-numbers/number-of-offices.html">Savills by Numbers</a>';

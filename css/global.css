@@ -163,7 +163,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 
 .no-borderradius .indexContentBtnContainer .indexBtn{background:url(../images/bg_ie_landingBtn.png) no-repeat center; color: #FFFFFF; cursor: pointer; display: inline-block; font-size: 0; height: 118px; position: relative; text-align: center; width: 118px; z-index: 1; box-shadow: 0 0 0 3px #FFFFFF; color: #EEA303; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; transition: color 0.3s; opacity:0.9; position:relative; margin-right:28px; float:left;}
 
-.indexContentBtnContainer .indexBtn:hover:after{transform:scale(0.85); -moz-transform:scale(0.85); -webkit-transform:scale(0.85)}
+.indexContentBtnContainer .indexBtn:hover:after{transform:scale(0.85); -moz-transform:scale(0.85); -webkit-transform:scale(0.85);}
 .indexContentBtnContainer .indexBtn img{position:absolute; top:50%; left:50%;}
 .indexContentBtnContainer .indexBtn.last{margin-right:0!important;}
 .indexContentBtnContainer .btn_history img{margin-left: -19px; margin-top: -8.5px;}
@@ -180,6 +180,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .indexContentBtnContainer .btn_gcr img{margin-left: -42.5px; margin-top: -19px;}
 .indexContentBtnContainer .btn_cityBriefings img{margin-left: -24px; margin-top: -19px;}
 .indexContentBtnContainer .btn_researchReports img{margin-left: -26.5px; margin-top: -19px;}
+.indexContentBtnContainer .btn_benchmarking img{margin-left: -37px;margin-top: -11px;}
 .indexContentBtnContainer .btn_trackRecords img{margin-left: -19.5px; margin-top: -19px;}
 .indexContentBtnContainer .btn_caseStudies img{margin-left: -20.5px; margin-top: -19px;}
 
@@ -757,7 +758,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .trackRecordLogoContainer{height:704px; background:#fff; float:left; width:880px;}
 #logoContent{padding:13px 0 0 8px; height:651px;}
 /*.trackRecordLogoContent{height:664px;}*/
-.trackRecordLogoContent{width:742px; position:relative; height:564px; padding:15px 0 0 10px; background-color:#fff; float:left;}
+.trackRecordLogoContent{width:742px; position:relative; height:549px; padding:15px 0 15px 10px; background-color:#fff; float:left;}
 
 .trackRecordLogoContent .recordItem{display:block; float:left; margin:0 8px 15px 8px;cursor:pointer; position:relative; width:86px; height:66px;}
 .trackRecordLogoContent .recordItem .showMoveDiv{display:none;}
@@ -1093,7 +1094,7 @@ body.footprint-map #leftNavPanel{width:275px;}
 .reportContainer .btnNext{right:10px !important; width:68px;}
 .reportContainer .btnPrev{left:10px !important; width:68px;}*/
 .btnClose_flipbook{background:url(../images/btn_close_flipbook.png) no-repeat center; width:40px; height:40px; position:absolute; top:50px; right:0;}
-.researchReportContainer{float:left; height:611px; padding: 20px 0 0 10px; width: 734px; position:relative;}
+.researchReportContainer{float:left; height:596px; padding: 15px 0 15px 10px; width: 734px; position:relative;}
 .researchReportItemContainer a{position:relative; width:139px; height:197px;}
 .researchReportItemContainer a:hover span{display:block;}
 @media only screen and (min-device-width: 481px) and
@@ -1265,4 +1266,7 @@ body.footprint-map #leftNavPanel{width:275px;}
 }
 .benchmarkingSectionTitle span.close{
      background: url(../images/ourResearch/arrow_collapse.png) no-repeat;
+}
+.jspContainer .jspHorizontalBar{
+    /*display: none!important;*/
 }

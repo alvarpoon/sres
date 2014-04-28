@@ -10,9 +10,9 @@ breadcumbArray = [
 {id:'page-id-1', pageName:'Who We Are', levelName:[], levelLinks:[]},
 	{id:'page-id-2', pageName:'History', levelName:['Who We Are'], levelLinks:['who-we-are/index.html']},
 	{id:'page-id-3', pageName:'Our Partners', levelName:['Who We Are'], levelLinks:['who-we-are/index.html']},
-	{id:'page-id-4', pageName:'Our Team - APAC', levelName:['Who We Are'], levelLinks:['who-we-are/index.html']},
-	{id:'page-id-5', pageName:'Our Team - Americas', levelName:['Who We Are'], levelLinks:['who-we-are/index.html']},
-	{id:'page-id-6', pageName:'Our Team - Europe', levelName:['Who We Are'], levelLinks:['who-we-are/index.html']},
+	{id:'page-id-4', pageName:'APAC', levelName:['Who We Are','Our Team'], levelLinks:['who-we-are/index.html','who-we-are/our-team/apac.html']},
+	/*{id:'page-id-5', pageName:'Our Team - Americas', levelName:['Who We Are'], levelLinks:['who-we-are/index.html']},*/
+	{id:'page-id-6', pageName:'Europe', levelName:['Who We Are','Our Team'], levelLinks:['who-we-are/index.html','who-we-are/our-team/apac.html']},
 	{id:'page-id-7', pageName:'Number of Offices', levelName:['Who We Are','Savills by Numbers'], levelLinks:['who-we-are/index.html', 'who-we-are/savills-by-numbers/number-of-offices.html']},
 	{id:'page-id-11', pageName:'Number of Employees', levelName:['Who We Are','Savills by Numbers'], levelLinks:['who-we-are/index.html', 'who-we-are/savills-by-numbers/number-of-offices.html']},
 	{id:'page-id-8', pageName:'Property Managed', levelName:['Who We Are','Savills by Numbers'], levelLinks:['who-we-are/index.html', 'who-we-are/savills-by-numbers/number-of-offices.html']},
@@ -179,14 +179,12 @@ breadcumbArray = [
 
 /*Our Clients section starts*/
 {id:'page-id-209', pageName:'Our Clients', levelName:[], levelLinks:[]},
-	{id:'page-id-136', pageName:'APAC', levelName:['Our Clients', 'Track Record'], levelLinks:['our-clients/index.html','our-clients/index.html']},
-	{id:'page-id-232', pageName:'APAC', levelName:['Our Clients', 'Track Record'], levelLinks:['our-clients/index.html','our-clients/index.html']},
-	/*{id:'page-id-232', pageName:'APAC', levelName:['Our Clients', 'Track Record', 'APAC'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-apac/index.html','our-clients/track-record/tr-apac/index.html']},*/
+	{id:'page-id-136', pageName:'APAC', levelName:['Our Clients', 'Track Record'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-apac/index.html']},
+	{id:'page-id-232', pageName:'List view', levelName:['Our Clients', 'Track Record', 'APAC'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-apac/index.html','our-clients/track-record/tr-apac/index.html']},
 		/*{id:'page-id-137', pageName:'Americas', levelName:['Our Clients', 'Track Record'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-americas/index.html']},
 		{id:'page-id-233', pageName:'List view', levelName:['Our Clients', 'Track Record', 'Americas'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-americas/index.html','our-clients/track-record/tr-americas/index.html']},*/
-	{id:'page-id-138', pageName:'Europe', levelName:['Our Clients', 'Track Record'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-europe/index.html']},
-	{id:'page-id-234', pageName:'Europe', levelName:['Our Clients', 'Track Record'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-europe/index.html']},
-	/*{id:'page-id-234', pageName:'List view', levelName:['Our Clients', 'Track Record', 'Europe'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-europe/index.html','our-clients/track-record/tr-europe/index.html']},*/
+	{id:'page-id-138', pageName:'Europe', levelName:['Our Clients', 'Track Record'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-apac/index.html']},
+	{id:'page-id-234', pageName:'List view', levelName:['Our Clients', 'Track Record', 'Europe'], levelLinks:['our-clients/index.html','our-clients/track-record/tr-apac/index.html','our-clients/track-record/tr-europe/index.html']},
 	{id:'page-id-139', pageName:'Case Studies', levelName:['Our Clients'], levelLinks:['our-clients/index.html']},
 	{id:'page-id-140', pageName:'Beijing - Legal', levelName:['Our Clients', 'Case Studies', 'APAC'], levelLinks:['our-clients/index.html', 'our-clients/case-studies/index.html', 'our-clients/case-studies/apac/beijing-legal.html']},
 		{id:'page-id-141', pageName:'Beijing - Banking', levelName:['Our Clients', 'Case Studies', 'APAC'], levelLinks:['our-clients/index.html', 'our-clients/case-studies/index.html', 'our-clients/case-studies/apac/beijing-legal.html']},
