@@ -17,9 +17,6 @@ if (!Array.prototype.indexOf) {
 
 if (!levelArray) var levelArray = new Array();
 if (levelArray.length == 0) getLevel();
-//if(isiPad){
-	
-//}
 
 $(document).ready(function(){
 
@@ -32,6 +29,20 @@ $(document).ready(function(){
 	}else{
 		$('body').addClass('withHover');	
 		
+	}
+	//attach phonegap script to head if it's an app
+	if(isApp){
+		//if (levelArray.length == 0) getLevel();
+		var homeHref = '';
+		for(var k=0; k<levelArray.length-1; k++)
+		{
+			homeHref += '..\/';
+		}
+		var head = document.getElementsByTagName('head')[0];
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = homeHref+"cordova.js";
+		head.appendChild(script);
 	}
 });
 
@@ -238,6 +249,7 @@ function initTopNav(){
 		}else{
 			resetSubNav(1);
 			$('#overlay').hide();
+			console.log("hide overlay");
 		}
 	});
 	initContactPopup();
