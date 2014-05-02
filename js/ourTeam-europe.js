@@ -3,9 +3,9 @@ var ourTeamArray = new Array();
 //Main Sections
 ourTeamArray = [
 {id:"0", empName:"Kara Thompson", empTitle:"Senior Project Manager", empDepartment:"Corporate Real Estate Services", telNo:"+44 (0) 207 409 8047", email:"kathompson@savills.com", location:"UK", experience:"6", languages:"English", expertise:"Project & Facilities management", workCat:[
-	{cat:'project management lead', locale:'uk'},
-	{cat:'project management lead', locale:'germany'},
-	{cat:'project management lead', locale:'ireland'}
+	{cat:'project management', locale:'uk'},
+	{cat:'project management', locale:'germany'},
+	{cat:'project management', locale:'ireland'}
 	]},
 {id:"1", empName:"Jon Hutt", empTitle:"Director, Joint Head", empDepartment:"Corporate Real Estate Services", telNo:"+44 (0) 1223 347 213", email:"jhutt@savills.com", location:"UK", experience:"Over 20", languages:"English", expertise:"All Areas of Commercial Work", workCat:[
 	{cat:'leadership', locale:'uk'},
@@ -15,13 +15,13 @@ ourTeamArray = [
 	{cat:'leadership', locale:'poland'},
 	{cat:'leadership', locale:'netherlands'},
 	{cat:'leadership', locale:'france'},
-	{cat:'emea account management team', locale:'uk'},
-	{cat:'emea account management team', locale:'germany'},
-	{cat:'emea account management team', locale:'ireland'},
-	{cat:'emea account management team', locale:'spain'},
-	{cat:'emea account management team', locale:'poland'},
-	{cat:'emea account management team', locale:'netherlands'},
-	{cat:'emea account management team', locale:'france'},
+	{cat:'strategic consulting', locale:'uk'},
+	{cat:'strategic consulting', locale:'germany'},
+	{cat:'strategic consulting', locale:'ireland'},
+	{cat:'strategic consulting', locale:'spain'},
+	{cat:'strategic consulting', locale:'poland'},
+	{cat:'strategic consulting', locale:'netherlands'},
+	{cat:'strategic consulting', locale:'france'},
 	{cat:'sustainability', locale:'uk'},
 	{cat:'sustainability', locale:'germany'},
 	{cat:'sustainability', locale:'ireland'},
@@ -32,13 +32,13 @@ ourTeamArray = [
 	]},
 {id:"2", empName:"Mark Andrews", empTitle:"Head of Corporate Real Estate Services (EMEA)", empDepartment:"", telNo:"+44 (0) 207 409 8772", email:"mandrews@savills.com", location:"UK", experience:"18", languages:"English", expertise:"All Areas of Commercial Work", workCat:[
 	{cat:'tenant representation', locale:'uk'},
-	{cat:'emea account management team', locale:'uk'},
-	{cat:'emea account management team', locale:'germany'},
-	{cat:'emea account management team', locale:'ireland'},
-	{cat:'emea account management team', locale:'spain'},
-	{cat:'emea account management team', locale:'poland'},
-	{cat:'emea account management team', locale:'netherlands'},
-	{cat:'emea account management team', locale:'france'}
+	{cat:'strategic consulting', locale:'uk'},
+	{cat:'strategic consulting', locale:'germany'},
+	{cat:'strategic consulting', locale:'ireland'},
+	{cat:'strategic consulting', locale:'spain'},
+	{cat:'strategic consulting', locale:'poland'},
+	{cat:'strategic consulting', locale:'netherlands'},
+	{cat:'strategic consulting', locale:'france'}
 	]}, 
 {id:"3", empName:"Nicky Wightman", empTitle:"Business Strategy Consultant", empDepartment:"", telNo:"+44 (0) 1223 347 087", email:"nwightman@savills.com", location:"London, UK", experience:"6", languages:"English & French", expertise:"Corporate Strategy & Innovation", workCat:[
 	{cat:'sustainability', locale:'uk'},
@@ -57,13 +57,13 @@ ourTeamArray = [
 	{cat:'leadership', locale:'poland'},
 	{cat:'leadership', locale:'netherlands'},
 	{cat:'leadership', locale:'france'},
-	{cat:'emea account management team', locale:'uk'},
-	{cat:'emea account management team', locale:'germany'},
-	{cat:'emea account management team', locale:'ireland'},
-	{cat:'emea account management team', locale:'spain'},
-	{cat:'emea account management team', locale:'poland'},
-	{cat:'emea account management team', locale:'netherlands'},
-	{cat:'emea account management team', locale:'france'}
+	{cat:'strategic consulting', locale:'uk'},
+	{cat:'strategic consulting', locale:'germany'},
+	{cat:'strategic consulting', locale:'ireland'},
+	{cat:'strategic consulting', locale:'spain'},
+	{cat:'strategic consulting', locale:'poland'},
+	{cat:'strategic consulting', locale:'netherlands'},
+	{cat:'strategic consulting', locale:'france'}
 	]},
 {id:"5", empName:"Coen de Lange", empTitle:"Managing Director", empDepartment:"Agency", telNo:"+31 20 301 2026", email:"c.delange@savills.nl", location:"Amsterdam, Netherlands", experience:"15", languages:"Dutch, English", expertise:"Leasing Agency", workCat:['all'],country:[
 	{cat:'tenant representation', locale:'netherlands'}
@@ -88,26 +88,26 @@ ourTeamArray = [
 	]},
 {id:"14", empName:"Emma Morton", empTitle:"Associate Director", empDepartment:"Corporate Real Estate Services", telNo:"+44 (0) 1223 347126", email:"emorton@savills.com", location:"London, UK", experience:"14", languages:"English", expertise:"International Tenant Representation", workCat:[
 	{cat:'tenant representation', locale:'uk'},
-	{cat:'emea account management team', locale:'uk'},
-	{cat:'emea account management team', locale:'germany'},
-	{cat:'emea account management team', locale:'ireland'},
-	{cat:'emea account management team', locale:'spain'},
-	{cat:'emea account management team', locale:'poland'},
-	{cat:'emea account management team', locale:'netherlands'},
-	{cat:'emea account management team', locale:'france'}
+	{cat:'strategic consulting', locale:'uk'},
+	{cat:'strategic consulting', locale:'germany'},
+	{cat:'strategic consulting', locale:'ireland'},
+	{cat:'strategic consulting', locale:'spain'},
+	{cat:'strategic consulting', locale:'poland'},
+	{cat:'strategic consulting', locale:'netherlands'},
+	{cat:'strategic consulting', locale:'france'}
 	]},
 {id:"15", empName:"Kristian Barthels", empTitle:"Associate Director", empDepartment:"Corporate Real Estate Services", telNo:"+49 40 30 99 77 130", email:"kbarthels@savills.de", location:"Hamburg, Germany", experience:"13", languages:"German, English", expertise:"Commercial Real Estate", workCat:[
 	{cat:'tenant representation', locale:'germany'},
-	{cat:'emea account management team', locale:'uk'},
-	{cat:'emea account management team', locale:'germany'},
-	{cat:'emea account management team', locale:'ireland'},
-	{cat:'emea account management team', locale:'spain'},
-	{cat:'emea account management team', locale:'poland'},
-	{cat:'emea account management team', locale:'netherlands'},
-	{cat:'emea account management team', locale:'france'}
+	{cat:'strategic consulting', locale:'uk'},
+	{cat:'strategic consulting', locale:'germany'},
+	{cat:'strategic consulting', locale:'ireland'},
+	{cat:'strategic consulting', locale:'spain'},
+	{cat:'strategic consulting', locale:'poland'},
+	{cat:'strategic consulting', locale:'netherlands'},
+	{cat:'strategic consulting', locale:'france'}
 	]},
 {id:"16", empName:"Jakub Tomczyk", empTitle:"Project Manager", empDepartment:"", telNo:"+48 (0) 692 499 349", email:"jtomczyk@savills.pl", location:"Warsaw, Poland", experience:"8", languages:"English & Polish", expertise:"Project Management", workCat:[
-	{cat:'project management lead', locale:'poland'}
+	{cat:'project management', locale:'poland'}
 	]},
 {id:"17", empName:"Kai Schindlmayr", empTitle:"Regional Leader, Australia & New Zealand", empDepartment:"", telNo:"+61 (0) 422 002 067", email:"kschindlmayr@savills.com.au", location:"Sydney, Australia", experience:"13", languages:"English", expertise:"Workspace", workCat:[
 	{cat:'workspace specialist', locale:'uk'},
@@ -119,7 +119,7 @@ ourTeamArray = [
 	{cat:'workspace specialist', locale:'france'}
 	]},
 {id:"18", empName:"Tim Bretten", empTitle:"Director", empDepartment:"", telNo:"+48 (0) 692 499 349", email:"", location:"Poland", experience:"12", languages:"English & Polish", expertise:"Facilities Management", workCat:[
-	{cat:'integrated facilities management', locale:'poland'}
+	{cat:'facilities management', locale:'poland'}
 	]},
 {id:"19", empName:"Dale O'Toole", empTitle:"National Sustainability Manager", empDepartment:"Sustainability", telNo:"+61 (0) 3 8686 8037 ", email:"dotoole@savills.com.au", location:"Australia", experience:"Over 20", languages:"English", expertise:"Sustainability ", workCat:[
 	{cat:'sustainability', locale:'uk'},

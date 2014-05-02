@@ -27,6 +27,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .noLink { color:#666666 !important; }
 .alignRight { text-align:right; }
 .alignLeft { text-align:left; }
+.nowrap {white-space: nowrap;}
 #mainContainer { width:1024px; font-size:105%; margin:0 auto; position:relative; z-index:1; /*height:769px;*/ height:748px; overflow:hidden; background:#2B2B2B;}
 .logo_small{background:url(../images/logo_savills_small.png) no-repeat; position:absolute; right:20px; top:20px; z-index:999; width:70px; height:70px;}
 .btnNext{background:url(../images/btn_next.png) no-repeat; width:68px; height:68px; position:absolute; top:290px; right:20px; z-index:999; display:block;}

@@ -4209,7 +4209,8 @@ function genTopNav(){
 	str +='<div class="subNavItemWrapper">';
 	str +='<a href="javascript:window.print()" class="printThisPage">Print this page</a>';
 	str +='<a href="#">PDF download</a>';
-	str +='<a href="http://www.xe.com/" target="_blank">Currency converter</a>';
+	str +='<a href="javascript:;" onclick="openBrowser(\'http:\/\/www.xe.com/\',\'_system\');">Currency converter</a>';
+	//str +='<a href="http://www.xe.com/" target="_blank">Currency converter</a>';
 	str +='</div>';
 	str +='</div>';
 	if(!isApp){
@@ -4226,11 +4227,11 @@ function genTopNav(){
 		str +='<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5268e0d937d664e1"></script>';
 		str +='</div>';
 		str +='<div class="subNavItem"></div>';
-		str +='</div>';
 	}
 	if(levelArray.length-1 > 0){
 		str +='<div class="clearfix" id="breadcumb"></div>';	
 	}
+	str +='</div>';
 	str +='</div>';
 	
 	d.write(str);
