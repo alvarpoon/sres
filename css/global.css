@@ -1189,6 +1189,15 @@ body.footprint-map #leftNavPanel{width:275px;}
     display: none;
     margin-top: 20px;
 }
+.benchmarkingSectionContent .small{
+    font-size: 12px;
+    color: #c5c5c5;
+    line-height: 18px;
+    padding: 5px 0;
+}
+.benchmarkingSectionContent .introSubheadline {
+    margin-bottom: 10px;
+}
 .benchmarkingContentContainer table{
     font-size: 11px;
 }
