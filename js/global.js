@@ -20,16 +20,13 @@ if (levelArray.length == 0) getLevel();
 
 $(document).ready(function(){
 
+	//check if it's website in iPad
 	if(isiPad){
-		$('.printThisPage').css('display','none');
-		$('.toolsSubNav').css('right',103);
-		$('.shareSubNav').css('right',43);		
-		$('.btnSearch ').css('display','none');
 		$('body').removeClass('withHover');	
 	}else{
-		$('body').addClass('withHover');	
-		
+		$('body').addClass('withHover');		
 	}
+
 	//attach phonegap script to head if it's an app
 	if(isApp){
 		//if (levelArray.length == 0) getLevel();
@@ -43,7 +40,13 @@ $(document).ready(function(){
 		script.type = 'text/javascript';
 		script.src = homeHref+"cordova.js";
 		head.appendChild(script);
+
+		$('.printThisPage').css('display','none');
+		$('.toolsSubNav').css('right',67);
+		//$('.shareSubNav').css('right',43);		
+		$('.btnSearch ').css('display','none');
 	}
+
 });
 
 var toolsShowFlag = false;
@@ -59,7 +62,7 @@ function initTopNav(){
 			if($(this).hasClass('currentSection')) $(this).removeClass('currentSection');
 			if($('#subNavContainer .active').length == 0){
 				if($(this).hasClass('btnTools')){
-					if(isiPad)
+					if(isApp)
 						$('#subNavContainer .subNavItem').eq($('#topNav a').index($(this))).animate({'height':95},200);
 					else
 						$('#subNavContainer .subNavItem').eq($('#topNav a').index($(this))).animate({'height':131},200);
