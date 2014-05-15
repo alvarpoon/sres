@@ -87,9 +87,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 #subNavContainer .subNavItem .subSectionItem a:hover{color:#FEE752;}
 #subNavContainer .subNavItem .subSectionItem ul li a{font-size:13px; font-weight:bold;padding-top: 8px;height: 23px;margin-bottom: 0;}
 
-#subNavContainer .toolsSubNav{right:9px;/* 151px; */ (-bracket-:hack;
-        right:150px;
-    ); left:auto;
+#subNavContainer .toolsSubNav{right:9px;/* 151px; */ left:auto;
 	 	z-index:999;}
 #subNavContainer .toolsSubNav .subNavItemWrapper{padding:21px 20px 15px 20px; width:125px;}
 #subNavContainer .toolsSubNav a{font-weight:bold; color:#fff; display:block; margin-bottom:15px; font-size:13px;}
