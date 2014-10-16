@@ -1281,6 +1281,10 @@ body.footprint-map #leftNavPanel{width:275px;}
     font-size: 17px;
     font-weight: bold;
     line-height: 22px;
-    margin-bottom: 10px;
-    color: #BFB9A4;
+    color: #000;
+    width: 552px;
+    background-color: #fff;
+    padding: 5px 0 5px 10px;
+    margin: 0;
+    margin-bottom: -1px;
 }
