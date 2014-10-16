@@ -1277,3 +1277,10 @@ body.footprint-map #leftNavPanel{width:275px;}
 .jspContainer .jspHorizontalBar{
     /*display: none!important;*/
 }
+.researchGraphHeading{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #BFB9A4;
+}
