@@ -4198,8 +4198,8 @@ function genTopNav(){
 	str +='<div class="subSectionItem lastItem">';
 	str +='<a class="page-class-139" href="' + homeHref + 'our-clients/case-studies/index.html">Case Studies</a>';
 	str +='<ul>';
-	str +='<li><a class="page-class-140 page-class-141 page-class-142 page-class-143 page-class-144 page-class-145 page-class-146 page-class-147 page-class-148 page-class-149 page-class-150 page-class-151 page-class-152 page-class-153 page-class-154 page-class-155 page-class-156 page-class-157" href="' + homeHref + 'our-clients/case-studies/apac/beijing-legal.html">APAC</a></li>';
-	str +='<li><a class="page-class-183 page-class-184 page-class-185 page-class-186 page-class-187 page-class-188 page-class-189 page-class-190 page-class-191 page-class-192 page-class-193 page-class-194 page-class-195 page-class-196 page-class-197 page-class-198 page-class-199 page-class-200 page-class-201 page-class-202 page-class-204 page-class-205 page-class-244 page-class-245 page-class-246 page-class-247 page-class-248" href="' + homeHref + 'our-clients/case-studies/europe/amsterdam-education.html">Europe</a></li>';
+	str +='<li><a class="page-class-140 page-class-141 page-class-142 page-class-143 page-class-144 page-class-145 page-class-146 page-class-147 page-class-148 page-class-149 page-class-150 page-class-151 page-class-152 page-class-153 page-class-154 page-class-155 page-class-156 page-class-157 page-class-249 page-class-250" href="' + homeHref + 'our-clients/case-studies/apac/index.html">APAC</a></li>';
+	str +='<li><a class="page-class-183 page-class-184 page-class-185 page-class-186 page-class-187 page-class-188 page-class-189 page-class-190 page-class-191 page-class-192 page-class-193 page-class-194 page-class-195 page-class-196 page-class-197 page-class-198 page-class-199 page-class-200 page-class-201 page-class-202 page-class-204 page-class-205 page-class-244 page-class-245 page-class-246 page-class-247 page-class-248 page-class-251 page-class-252" href="' + homeHref + 'our-clients/case-studies/europe/index.html">Europe</a></li>';
 	str +='</ul>';
 	str +='</div>';
 	str +='</div>';

@@ -28,6 +28,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .alignRight { text-align:right; }
 .alignLeft { text-align:left; }
 .nowrap {white-space: nowrap;}
+.no-bg-color{background-color: transparent!important;}
 #mainContainer { width:1024px; font-size:105%; margin:0 auto; position:relative; z-index:1; /*height:769px;*/ height:748px; overflow:hidden; background:#2B2B2B;}
 .logo_small{background:url(../images/logo_savills_small.png) no-repeat; position:absolute; right:20px; top:20px; z-index:999; width:70px; height:70px;}
 .btnNext{background:url(../images/btn_next.png) no-repeat; width:68px; height:68px; position:absolute; top:290px; right:20px; z-index:999; display:block;}
@@ -326,25 +327,25 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .globalFootprintContainer .closeBtn:hover{background-position:15px -278px;}
 
 .countryContentTable tr td{color:#fff; font-size:14px; font-weight:bold; text-shadow: 1px -1px 1px #000; padding:0 35px 7px 0;}
-.countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width:432px; height:181px; float:right; padding:20px 0 0 32px;}
+.countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width:432px; height:181px; float:right; padding: 15px 0 0 32px;}
 .countryContent a{color:#FFEC53;}
 
 /*Australasia starts*/
 .globalFootprintContainer #btnAustralasiaDiv{cursor:pointer;}
 .globalFootprintContainer .btnAustralasia{width:142px; height:142px; top:425px; left:769px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear; transition-delay: 0.3s;-moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */ -o-transition-delay: 0.3s; /* Opera */ }
-.globalFootprintContainer .australasiaDiv{box-shadow:-3px 0px 6px #000; width:0; height:200px; overflow:hidden; position:absolute; top:397px; right:177px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
+.globalFootprintContainer .australasiaDiv{box-shadow:-3px 0px 6px #000; width:0; height: 192px; overflow:hidden; position:absolute;top: 404px; right:177px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
 .globalFootprintContainer #btnAustralasiaDiv.active .btnAustralasia{width:212px; height:211px; top:393px; left:736px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear;}
 .globalFootprintContainer #btnAustralasiaDiv.active .australasiaDiv{width:399px; transition-delay: 0.3s; -moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */-o-transition-delay: 0.3s; /* Opera */}
-.globalFootprintContainer #btnAustralasiaDiv .countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width:325px; height:159px; float:right; padding:44px 0 0 32px;}
+.globalFootprintContainer #btnAustralasiaDiv .countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width:325px; height: 174px; float:right; padding: 29px 0 0 32px;}
 /*Australasia ends*/
 
 /*South Africa starts*/
 .globalFootprintContainer #btnSouthAfricaDiv{cursor:pointer;}
 .globalFootprintContainer .btnSouthAfrica{top:420px; left:518px; width:142px; height:142px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear; transition-delay: 0.3s;-moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */ -o-transition-delay: 0.3s; /* Opera */ }
-.globalFootprintContainer .southAfricaDiv{box-shadow:-3px 0px 6px #000; width:0; height:200px; overflow:hidden; position:absolute; top:391px; right:437px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
+.globalFootprintContainer .southAfricaDiv{box-shadow:-3px 0px 6px #000; width:0; height:193px; overflow:hidden; position:absolute; top:391px; right:437px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
 .globalFootprintContainer #btnSouthAfricaDiv.active .btnSouthAfrica{width:212px; height:211px; top:383px; left:477px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear;}
 .globalFootprintContainer #btnSouthAfricaDiv.active .southAfricaDiv{width:282px; transition-delay: 0.3s; -moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */-o-transition-delay: 0.3s; /* Opera */}
-.globalFootprintContainer #btnSouthAfricaDiv .countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width:208px; height:169px; float:right; padding:34px 0 0 32px;}
+.globalFootprintContainer #btnSouthAfricaDiv .countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width:208px; height: 184px; float:right; padding: 15px 0 0 32px;}
 /*South Africa ends*/
 
 /*India starts*/
@@ -359,16 +360,16 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 /*Asia starts*/
 .globalFootprintContainer #btnAsiaDiv{cursor:pointer;}
 .globalFootprintContainer .btnAsia{top:190px; left:704px; width:142px; height:142px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear; transition-delay: 0.3s;-moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */ -o-transition-delay: 0.3s; /* Opera */ }
-.globalFootprintContainer .asiaDiv{box-shadow:-3px 0px 6px #000; width:0; height:200px; overflow:hidden; position:absolute; right: 249px; top: 158px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
+.globalFootprintContainer .asiaDiv{box-shadow:-3px 0px 6px #000; width:0; height: 192px; overflow:hidden; position:absolute; right: 249px; top: 162px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
 .globalFootprintContainer #btnAsiaDiv.active .btnAsia{width:212px; height:211px; top:154px; left:665px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear;}
 .globalFootprintContainer #btnAsiaDiv.active .asiaDiv{width:392px; transition-delay: 0.3s; -moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */-o-transition-delay: 0.3s; /* Opera */}
-.globalFootprintContainer #btnAsiaDiv .countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width:318px; height:159px; float:right; padding:44px 0 0 32px;}
+.globalFootprintContainer #btnAsiaDiv .countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width:318px; height: 178px;float: right;padding: 15px 0 0 32px;}
 /*Asia ends*/
 
 /*Europe starts*/
 .globalFootprintContainer #btnEuropeDiv{cursor:pointer;}
 .globalFootprintContainer .btnEurope{width:142px; height:142px; top:202px; left:517px;  -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear; transition-delay: 0.3s;-moz-transition-delay: 0.3s; -webkit-transition-delay: 0.3s; -o-transition-delay: 0.3s; }
-.globalFootprintContainer .europeDiv{box-shadow:-3px 0px 6px #000; width:0; height:200px; overflow:hidden; position:absolute; top:175px; right:441px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
+.globalFootprintContainer .europeDiv{box-shadow:-3px 0px 6px #000; width:0; height: 192px; overflow:hidden; position:absolute;top: 178px; right:441px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
 .globalFootprintContainer .europeDiv .countryContent{width:432px;}
 .globalFootprintContainer #btnEuropeDiv.active .btnEurope{width:212px; height:211px; top:170px; left:475px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear;}
 .globalFootprintContainer #btnEuropeDiv.active .europeDiv{width:502px; transition-delay: 0.3s; -moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */-o-transition-delay: 0.3s; /* Opera */}
@@ -377,18 +378,18 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 /*UK starts*/
 .globalFootprintContainer #btnUKDiv{cursor:pointer;}
 .globalFootprintContainer .btnUK{top:192px; left:355px; width:142px; height:142px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear; transition-delay: 0.3s;-moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */ -o-transition-delay: 0.3s; /* Opera */ }
-.globalFootprintContainer .ukDiv{box-shadow:-3px 0px 6px #000; width:0; height:200px; overflow:hidden; position:absolute; left: 439px; top: 154px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
+.globalFootprintContainer .ukDiv{box-shadow:-3px 0px 6px #000; width:0; height: 192px; overflow:hidden; position:absolute; left: 439px; top: 158px;z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
 .globalFootprintContainer #btnUKDiv.active .btnUK{width:212px; height:211px; top:150px; left:335px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear;}
 .globalFootprintContainer #btnUKDiv.active .ukDiv{width:282px; transition-delay: 0.3s; -moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */-o-transition-delay: 0.3s; /* Opera */}
 .globalFootprintContainer #btnUKDiv .closeBtn{background:url(../images/whereWePlay/btn_close_right.png) no-repeat 15px 90px #2b2b2b; width:42px; height:201px; position:absolute; left:240px !important; top:0;}
 .globalFootprintContainer #btnUKDiv .closeBtn:hover{background-position:15px -278px;}
-.globalFootprintContainer #btnUKDiv .countryContent{ background: url(../images/whereWePlay/bg_countryDiv_content_right.png) no-repeat left; float: left; height: 161px; padding: 43px 0 0 130px; width: 110px;}
+.globalFootprintContainer #btnUKDiv .countryContent{ background: url(../images/whereWePlay/bg_countryDiv_content_right.png) no-repeat left; float: left; height: 161px; padding: 33px 0 0 130px;width: 110px;}
 /*UK ends*/
 
 /*USA starts*/
 .globalFootprintContainer #btnUSADiv{cursor:pointer;}
 .globalFootprintContainer .btnUSA{/*top:348px;*/ top:296px; left:161px; width:142px; height:142px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear; transition-delay: 0.3s;-moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */ -o-transition-delay: 0.3s; /* Opera */ }
-.globalFootprintContainer .usaDiv{box-shadow:-3px 0px 6px #000; width:0; height:200px; overflow:hidden; position:absolute; left: 228px; /*top: 305px;*/ top:255px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
+.globalFootprintContainer .usaDiv{box-shadow:-3px 0px 6px #000; width:0; height: 192px;overflow:hidden; position:absolute; left: 228px; /*top: 305px;*/ top: 259px;z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
 .globalFootprintContainer #btnUSADiv.active .btnUSA{width:212px; height:211px; top:249px; left:123px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear;}
 .globalFootprintContainer #btnUSADiv.active .usaDiv{width:444px; transition-delay: 0.3s; -moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */-o-transition-delay: 0.3s; /* Opera */}
 .globalFootprintContainer #btnUSADiv .closeBtn{background:url(../images/whereWePlay/btn_close_right.png) no-repeat 15px 90px #2b2b2b; width:42px; height:201px; position:absolute; left:402px !important; top:0;}
@@ -498,6 +499,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .briefMainContentItem .briefMainHeadline{font-size:20px; padding-bottom:10px;}
 .briefMainContentItem .briefMainSubHeadline{color:#BFB9A4; font-size:14px; padding-bottom:18px;}
 .briefMainContentItem .briefMainGraphContainer{padding-bottom:18px;}
+.briefMainContentItem .briefMainGraphContainer img{background-color: #fff;}
 .briefMainContentItem .briefMainDetail{font-size:13px; font-weight:bold; color:#C5C5C5;}
 .briefMainContentItem .briefMainDetail p{padding-bottom:12px; line-height:18px;}
 .briefMainContentItem .briefMainDetail ul li{background:url(../images/whereWePlay/bullet_yellow_briefing.png) no-repeat 0 5px; padding-left:15px; padding-bottom:12px;}
@@ -1280,11 +1282,11 @@ body.footprint-map #leftNavPanel{width:275px;}
 .researchGraphHeading{
     font-size: 17px;
     font-weight: bold;
-    line-height: 22px;
     color: #000;
     width: 552px;
     background-color: #fff;
-    padding: 5px 0 5px 10px;
+    padding: 5px 0 10px 10px;
     margin: 0;
     margin-bottom: -1px;
+    line-height: 110%;
 }

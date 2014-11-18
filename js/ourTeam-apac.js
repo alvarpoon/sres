@@ -74,7 +74,7 @@ ourTeamArray = [
 {id:"73", empName:"Christian Mancini", empTitle:"Managing Director", empDepartment:"", telNo:"+81 (0) 3 5562 1717", email:"cmancini@savills.asia", location:"Tokyo, Japan", experience:"15", languages:"English, Japanese", expertise:"Investment sales & asset management", workCat:[
 	{cat:'tenant representation', locale:'japan'}
 ]},
-{id:"56", empName:"Mark Price", empTitle:"Chief Executive Officer", empDepartment:"", telNo:"+66 2636 0300", email:"mprice@savills.co.th", location:"Thailand", experience:"28", languages:"English", expertise:"Office leasing & residential", workCat:[
+{id:"56", empName:"Mark Price", empTitle:"Chief Executive Officer", empDepartment:"", telNo:"+66 26360300 ext 101", email:"mprice@savills.co.th", location:"Thailand", experience:"28", languages:"English", expertise:"Office leasing & residential", workCat:[
 	{cat:'tenant representation',locale:'thailand'}]},
 {id:"7", empName:"Anthony Mcquade", empTitle:"Senior National Director", empDepartment:"", telNo:"+86 (10) 5925 2002", email:"anthony.mcquade@savills.com.cn", location:"Beijing, China", experience:"21", languages:"English, Mandarin", expertise:"All Sectors", workCat:[{cat:'facilities management', locale:'china'},
 	{cat:'facilities management', locale:'hong kong'},
@@ -92,7 +92,7 @@ ourTeamArray = [
 	{cat:'facilities management', locale:'malaysia'},
 	{cat:'facilities management', locale:'philippines'},
 	{cat:'facilities management', locale:'indonesia'}]},
-{id:"3", empName:"Dominic Harding", empTitle:"Senior Account Manager, Strategic Corporate Services, Asia Pacific", empDepartment:"Account Management", telNo:"+65 6415 1078 (Ext 3078)", email:"dharding@savills.com.sg", location:"Singapore", experience:"4", languages:"English", expertise:"Corporate Real Estate", workCat:[
+{id:"3", empName:"Dominic Harding", empTitle:"Senior Account Manager, Strategic Corporate Services, Asia Pacific", empDepartment:"Account Management", telNo:"+65 6415 1078 ext 3078", email:"dharding@savills.com.sg", location:"Singapore", experience:"4", languages:"English", expertise:"Corporate Real Estate", workCat:[
 	{cat:'strategic consulting', locale:'china'},
 	{cat:'strategic consulting', locale:'hong kong'},
 	{cat:'strategic consulting', locale:'macau'},
@@ -142,7 +142,7 @@ ourTeamArray = [
 	{cat:'strategic consulting', locale:'malaysia'},
 	{cat:'strategic consulting', locale:'philippines'},
 	{cat:'strategic consulting', locale:'indonesia'}]},
-{id:"65", empName:"Kai Schindlmayr", empTitle:"Regional Leader, Australia & New Zealand", empDepartment:"", telNo:"+61 (0) 422 002 067", email:"kschindlmayr@savills.com.au", location:"Sydney, Australia", experience:"13", languages:"English", expertise:"Workspace", workCat:[
+{id:"65", empName:"Kai Schindlmayr", empTitle:"Regional Leader, Australia & New Zealand", empDepartment:"", telNo:"+61 28215 8958", email:"kschindlmayr@savills.com.au", location:"Sydney, Australia", experience:"13", languages:"English", expertise:"Workspace", workCat:[
 	{cat:'strategic consulting',locale:'china'},
 	{cat:'strategic consulting',locale:'hong kong'},
 	{cat:'strategic consulting',locale:'macau'},
@@ -216,9 +216,9 @@ ourTeamArray = [
 	{cat:'strategic consulting', locale:'malaysia'},
 	{cat:'strategic consulting', locale:'philippines'},
 	{cat:'strategic consulting', locale:'indonesia'}]},
-{id:"54", empName:"Yann Deschamps", empTitle:"Director", empDepartment:"Commercial", telNo:"", email:"", location:"Shanghai, China", experience:"Over 12", languages:"English, Mandarin, French & Spanish", expertise:"Commercial, Tenant Representation & Industrial", workCat:[{cat:'tenant representation', locale:'china'}]},
+{id:"54", empName:"Yann Deschamps", empTitle:"Director", empDepartment:"Commercial", telNo:"+8621 6391 6688 ext 841", email:"yann.deschamps@savills.com.cn", location:"Shanghai, China", experience:"Over 12", languages:"English, Mandarin, French & Spanish", expertise:"Commercial, Tenant Representation & Industrial", workCat:[{cat:'tenant representation', locale:'china'}]},
 {id:"23", empName:"Michael Mccullough", empTitle:"Managing Director", empDepartment:"KMC MAG Group", telNo:"+63 2403 5519", email:"michael@kmcmaggroup.com", location:"Manila, Philippines", experience:"5", languages:"English & Filipino", expertise:"Tenant Representation / Customer Services Centres", workCat:[{cat:'tenant representation',locale:'philippines'}]},
-{id:"70", empName:"Woody Lam", empTitle:"Managing Director, Savills Southern China", empDepartment:"", telNo:"+86 20 3892 7168", email:"woody.lam@savills.com.cn", location:"Guangzhou, China", experience:"Over 20", languages:"Chinese, English", expertise:"All sectors", workCat:[{cat:'tenant representation', locale:'china'}]},
+{id:"70", empName:"Woody Lam", empTitle:"Managing Director, Savills Southern China", empDepartment:"", telNo:"+8620 3892 7108", email:"woody.lam@savills.com.cn", location:"Guangzhou, China", experience:"Over 20", languages:"Chinese, English", expertise:"All sectors", workCat:[{cat:'tenant representation', locale:'china'}]},
 {id:"1", empName:"John Mackenzie", empTitle:"Divisional Director", empDepartment:"Corporate Real Estate Services", telNo:"+61 (0) 2 8215 8982", email:"jmackenzie@savills.com.au", location:"Sydney & Melbourne, Australia", experience:"37", languages:"English", expertise:"All Sectors", workCat:[
 	{cat:'tenant representation', locale:'australia'},
 	{cat:'tenant representation', locale:'new zealand'}]},
@@ -267,7 +267,7 @@ ourTeamArray = [
 	{cat:'industrial', locale:'philippines'},
 	{cat:'industrial', locale:'indonesia'}
 	]},
-{id:"36", empName:"Jerry Yan", empTitle:"Associate Director", empDepartment:"Transaction Management", telNo:"+8610 5925 2288", email:"jerry.yan@savills.com.cn", location:"Beijing, China", experience:"7", languages:"English & Chinese (Mandarin) ", expertise:"Commercial Real Estate. Tier 1 and Tier 2 Chinese cities",
+{id:"36", empName:"Jerry Yan", empTitle:"Associate Director", empDepartment:"Transaction Management", telNo:"+8610 5925 2018", email:"jerry.yan@savills.com.cn", location:"Beijing, China", experience:"7", languages:"English & Chinese (Mandarin) ", expertise:"Commercial Real Estate. Tier 1 and Tier 2 Chinese cities",
 	workCat:[
 	{cat:'tenant representation', locale:'china'},
 	{cat:'tenant representation', locale:'japan'},
@@ -292,7 +292,7 @@ ourTeamArray = [
 	{cat:'retail', locale:'philippines'},
 	{cat:'retail', locale:'indonesia'}]},
 {id:"37", empName:"Terence Lau", empTitle:"Director ", empDepartment:"Transaction Management", telNo:"+0755 8828 5703", email:"terence.lau@savills.com.cn", location:"Shenzhen, China", experience:"Over 20", languages:"English, Mandarin & Cantonese", expertise:"All areas of commercial real estate", workCat:[{cat:'tenant representation',locale:'china'}]},
-{id:"69", empName:"May Mi", empTitle:"Associate Director", empDepartment:"", telNo:"+8610 592502062", email:"", location:"Beijing, China", experience:"13", languages:"English, Mandarin", expertise:"Tenant Representation", workCat:[{cat:'tenant representation', locale:'china'}]},
+{id:"69", empName:"May Mi", empTitle:"Associate Director", empDepartment:"", telNo:"+8610 59252062", email:"may.mi@savills.com.cn", location:"Beijing, China", experience:"13", languages:"English, Mandarin", expertise:"Tenant Representation", workCat:[{cat:'tenant representation', locale:'china'}]},
 {id:"66", empName:"Toshio Lin", empTitle:"Director", empDepartment:"", telNo:"+8610 5925 2158", email:"toshio.lin@savills.com.cn", location:"Beijing, China", experience:"Over 25", languages:"English, Chinese (Putonghua & Cantonese), Japanese", expertise:"Asset Management, Facilities Management, Property Management, Project Management, Real Estate Leasing & Procurement & Disposal, EHS, Energy Management, Risk Management, Procurement & etc", workCat:[
 	{cat:'facilities management', locale:'china'},
 	{cat:'facilities management', locale:'hong kong'},
@@ -309,7 +309,7 @@ ourTeamArray = [
 	{cat:'facilities management', locale:'malaysia'},
 	{cat:'facilities management', locale:'philippines'},
 	{cat:'facilities management', locale:'indonesia'}]},
-{id:"27", empName:"Adam Evennett", empTitle:"Associate Director", empDepartment:"", telNo:"+86 186 2167 2365", email:"adam.evennett@savills.com.cn", location:"Shanghai, China", experience:"10", languages:"English & intermediate Mandarin", expertise:"Building Refurbishment & Interiors for Retail and Commercial Fit Out", workCat:[
+{id:"27", empName:"Adam Evennett", empTitle:"Associate Director", empDepartment:"", telNo:"+8621 6391 6688 ext 725", email:"adam.evennett@savills.com.cn", location:"Shanghai, China", experience:"10", languages:"English & intermediate Mandarin", expertise:"Building Refurbishment & Interiors for Retail and Commercial Fit Out", workCat:[
 	{cat:'project management', locale:'china'},
 	{cat:'project management', locale:'taiwan'},
 	{cat:'project management', locale:'japan'}]},
@@ -361,7 +361,7 @@ ourTeamArray = [
 	{cat:'project management', locale:'vietnam'},
 	{cat:'project management', locale:'indonesia'}]},
 {id:"20", empName:"Toshihide Honoki", empTitle:"Tenant Representation", empDepartment:"", telNo:"+81 (0) 3 5562 1721", email:"thonoki@savills.co.jp", location:"Tokyo, Japan", experience:"Over 10", languages:"English & Japanese", expertise:"Tenant Representation", workCat:[{cat:'tenant representation',locale:'japan'}]},
-{id:"63", empName:"James Goh", empTitle:"Investments", empDepartment:"Corporate Real Estate", telNo:"+603 2691 9922 Ext. 257", email:"jamesgoh@savillsrahim-co.com", location:"Kuala Lumpur, Malaysia", experience:"15", languages:"English, Malay", expertise:"Divestment, Tenant Representation", workCat:[{cat:'tenant representation', locale:'malaysia'}]},
+{id:"63", empName:"James Goh", empTitle:"Investments", empDepartment:"Corporate Real Estate", telNo:"+603 2691 9922 ext 257", email:"jamesgoh@savillsrahim-co.com", location:"Kuala Lumpur, Malaysia", experience:"15", languages:"English, Malay", expertise:"Divestment, Tenant Representation", workCat:[{cat:'tenant representation', locale:'malaysia'}]},
 {id:"74", empName:"Rosario Carbonell", empTitle:"Senior Manager", empDepartment:"KMC MAG Group", telNo:"+632 403 5519", email:"rosario@kmcmaggroup.com", location:"Manila, Philippines", experience:"5", languages:"English, Filipino", expertise:"Corporate Real Estate", workCat:[
 	{cat:'tenant representation', locale:'philippines'}
 	]},
@@ -388,7 +388,7 @@ ourTeamArray = [
 	{cat:'project management', locale:'malaysia'},
 	{cat:'project management', locale:'thailand'}
 	]},
-{id:"14", empName:"Sue Lee", empTitle:"Director", empDepartment:"Commercial Leasing Services", telNo:"+82 (2) 2124 4180", email:"slee@savills.com.kr", location:"Seoul, South Korea", experience:"12", languages:"Korean & English", expertise:"Legal / Pharmaceutical / Korean conglomerate", workCat:[{cat:'tenant representation',locale:'south korea'}]},
+{id:"14", empName:"Sue Lee", empTitle:"Director", empDepartment:"Commercial Leasing Services", telNo:"+82 (2) 2124 4180", email:"slee@savills.co.kr", location:"Seoul, South Korea", experience:"12", languages:"Korean & English", expertise:"Legal / Pharmaceutical / Korean conglomerate", workCat:[{cat:'tenant representation',locale:'south korea'}]},
 {id:"40", empName:"John Kim", empTitle:"Senior Manager", empDepartment:"Industrial", telNo:"+82 2 2124 4257", email:"dokim@savills.co.kr", location:"Seoul, South Korea", experience:"7", languages:"Korean & English", expertise:"Manufacturing/Automotive/Pharmaceutical", workCat:[{cat:'tenant representation', locale:'south korea'}]},
 {id:"32", empName:"Ben Vickery", empTitle:"Regional Co-ordinator (Korea)", empDepartment:"Transaction Management & Industrial", telNo:"+82 2 2124 4172 ", email:"bvickery@savills.co.kr", location:"Seoul, South Korea", experience:"3", languages:"English", expertise:"Tenant Rep. Legal, Banking & tech", workCat:[{cat:'industrial', locale:'china'},
 	{cat:'industrial', locale:'hong kong'},
@@ -407,11 +407,11 @@ ourTeamArray = [
 	{cat:'industrial', locale:'philippines'},
 	{cat:'industrial', locale:'indonesia'}]},
 {id:"31", empName:"Angela Lu", empTitle:"Manager", empDepartment:"Transaction Management", telNo:"+886 2 8789 5828", email:"Alu@savills.com.tw", location:"Taiwan", experience:"8", languages:"English & Chinese", expertise:"Commercial and Corporate Real Estate", workCat:[{cat:'tenant representation', locale:'taiwan'}]},
-{id:"18", empName:"Thanatchamon Wonglokniyom", empTitle:"Associate Director", empDepartment:"", telNo:"+66 (0) 2 636 0300", email:"thanatchamonw@savills.com.th", location:"Bangkok, Thailand", experience:"16", languages:"Thai & English", expertise:"Retail", workCat:[{cat:'tenant representation',locale:'thailand'}]},
+{id:"18", empName:"Thanatchamon Wonglokniyom", empTitle:"Associate Director", empDepartment:"", telNo:"+66 (0) 2 636 0300", email:"thanatchamonw@savills.co.th", location:"Bangkok, Thailand", experience:"16", languages:"Thai & English", expertise:"Retail", workCat:[{cat:'tenant representation',locale:'thailand'}]},
 {id:"22", empName:"Doug Osborne", empTitle:"Managing Director", empDepartment:"", telNo:"+64 (0) 9951 5910", email:"dosborne@savills.co.nz", location:"New Zealand", experience:"40", languages:"English", expertise:"Strategic and Corporate Real Estate Advisory", workCat:[
 	{cat:'tenant representation', locale:'new zealand'}]},
-{id:"26", empName:"Tony Chai", empTitle:"Senior Director", empDepartment:"Project Management", telNo:"+82 2 2124 4231", email:"shchai@savills.com.kr", location:"Seoul", experience:"25", languages:"English & Korean", expertise:"Development and Remodeling", workCat:[{cat:'project management', locale:'south korea'}]},
-{id:"30", empName:"James Siu", empTitle:"Senior Director", empDepartment:"Industrial and Kowloon Investment Sales", telNo:"+852 2378 8638", email:"jsiu@savills.com.hk", location:"Hong Kong", experience:"30", languages:"Putonghua & Cantonese", expertise:"Industrial / Logistics", workCat:[{cat:'industrial', locale:'china'},
+{id:"26", empName:"Tony Chai", empTitle:"Senior Director", empDepartment:"Project Management", telNo:"+82 2 2124 4231", email:"shchai@savills.com.kr", location:"Seoul, South Korea", experience:"25", languages:"English & Korean", expertise:"Development and Remodeling", workCat:[{cat:'project management', locale:'south korea'}]},
+{id:"30", empName:"James Siu", empTitle:"Senior Director", empDepartment:"Industrial and Kowloon Investment Sales", telNo:"+852 2378 8628", email:"jsiu@savills.com.hk", location:"Hong Kong", experience:"30", languages:"Putonghua & Cantonese", expertise:"Industrial / Logistics", workCat:[{cat:'industrial', locale:'china'},
 	{cat:'industrial', locale:'hong kong'},
 	{cat:'industrial', locale:'macau'},
 	{cat:'industrial', locale:'taiwan'},
@@ -515,7 +515,7 @@ ourTeamArray = [
 	{cat:'retail', locale:'malaysia'},
 	{cat:'retail', locale:'philippines'},
 	{cat:'retail', locale:'indonesia'}]},
-{id:"57", empName:"Miah Yang", empTitle:"Senior Director", empDepartment:"Retail Services", telNo:"+82 2 2124 4270", email:"mayang@savills.co.kr", location:"Seoul", experience:"", languages:"English & Korean", expertise:"Retail, tenant representation, consultancy", workCat:[
+{id:"57", empName:"Miah Yang", empTitle:"Senior Director", empDepartment:"Retail Services", telNo:"+82 2 2124 4270", email:"mayang@savills.co.kr", location:"Seoul, South Korea", experience:"", languages:"English & Korean", expertise:"Retail, tenant representation, consultancy", workCat:[
 	{cat:'retail', locale:'china'},
 	{cat:'retail', locale:'hong kong'},
 	{cat:'retail', locale:'macau'},
@@ -537,7 +537,40 @@ ourTeamArray = [
 	]},
 {id:"72", empName:"Peter Adam", empTitle:"Associate Director", empDepartment:"Project Management", telNo:"+65 6415 3871", email:"padam@savills.com.sg", location:"Singapore", experience:"25", languages:"English", expertise:"Property Development & Project Management", workCat:[
 	{cat:'project management',locale:'singapore'}
-	]}
+	]},
+{id:"75", empName:"Oliver Silsby", empTitle:"Account Analyst", empDepartment:"Strategic Corporate Services", telNo:"+852 2840 4715", email:"omsilsby@savills.com.hk", location:"Hong Kong, China", experience:"2", languages:"English & Mandarin", expertise:"Corporate Real Estate", workCat:[
+	{cat:'strategic consulting',locale:'hong kong'}
+	]},
+{id:"76", empName:"Shoko Yamahata", empTitle:"Assistant Manager", empDepartment:"Project Management, APAC", telNo:"+852 5691 6005", email:"syamahata@savills.asia", location:"Hong Kong, China", experience:"1", languages:"English & Japanese", expertise:"Project Management", workCat:[
+	{cat:'project management',locale:'hong kong'}
+	]},
+{id:"77", empName:"Anna Kang", empTitle:"Associate", empDepartment:"Tenant Representative Services", telNo:"+82 2 2124 4129", email:"hkkang@savills.co.kr", location:"Seoul, South Korea", experience:"3", languages:"English & Korean", expertise:"Corporate Real Estate", workCat:[
+	{cat:'tenant representation',locale:'south korea'}
+	]},
+{id:"78", empName:"Rand Sobczak", empTitle:"Senior Associate", empDepartment:"Commercial", telNo:"+8621 6391 6688 ext 621", email:"rand.sobczak@savills.com.cn", location:"Shanghai, China", experience:"8", languages:"English & Mandarin", expertise:"Corporate Real Estate", workCat:[
+	{cat:'tenant representation',locale:'china'}
+	]},
+{id:"79", empName:"Hyeyun Jeong", empTitle:"Manager", empDepartment:"Tenant Representative Services", telNo:"+82 2 2124 4218", email:"hyjeong@savills.co.kr", location:"Seoul, South Korea", experience:"10", languages:"English & Korean", expertise:"Property Management, Tenant & Landlord Representation", workCat:[
+	{cat:'tenant representation',locale:'south korea'}
+	]},
+{id:"80", empName:"Betty Mao", empTitle:"Associate Director", empDepartment:"Commercial", telNo:"+8621 6391 6688 Ext 859", email:"betty.mao@savills.com.cn", location:"Shanghai, China", experience:"16", languages:"English & Mandarin", expertise:"Corporate Real Estate", workCat:[
+	{cat:'tenant representation',locale:'china'}
+	]},
+{id:"81", empName:"Paul Ablan", empTitle:"Senior Associate", empDepartment:"Tenant Representative Services", telNo:"+632 623 6329", email:"paul.ablan@kmcmaggroup.com", location:"Manila, Philippines", experience:"4", languages:"English & Filipino", expertise:"Commercial Leasing, Investment", workCat:[
+	{cat:'tenant representation',locale:'philippines'}
+	]},
+{id:"82", empName:"Karen Golez", empTitle:"Assistant Manager", empDepartment:"Tenant Representative Services", telNo:"+632 623 5068", email:"karen.golez@kmcmaggroup.com", location:"Manila, Philippines", experience:"8", languages:"English & Filipino", expertise:"Commercial Leasing", workCat:[
+	{cat:'tenant representation',locale:'philippines'}
+	]},
+{id:"83", empName:"Susan Yuan", empTitle:"Manager", empDepartment:"Commercial", telNo:"+8610 5925 2288", email:"susan.yuan@savills.com.cn", location:"Beijing, China", experience:"10", languages:"Mandarin & English", expertise:"Commercial Leasing", workCat:[
+	{cat:'tenant representation',locale:'china'}
+	]},
+{id:"84", empName:"Emily Li", empTitle:"Manager", empDepartment:"Commercial", telNo:"+8610 5925 2024", email:"emily.li@savills.com.cn", location:"Beijing, China", experience:"8", languages:"Mandarin & English", expertise:"Commercial Leasing", workCat:[
+	{cat:'tenant representation',locale:'china'}
+	]},
+{id:"85", empName:"Tina Hou", empTitle:"Senior Manager", empDepartment:"Commercial", telNo:"+8610 5925 2085", email:"tina.hou@savills.com.cn", location:"Beijing, China", experience:"6", languages:"Mandarin & English", expertise:"Commercial Leasing", workCat:[
+	{cat:'tenant representation',locale:'china'}
+	]},
 ];
 
 var ourTeamGeneralContent = new Array();
