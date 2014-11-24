@@ -1290,3 +1290,10 @@ body.footprint-map #leftNavPanel{width:275px;}
     margin-bottom: -1px;
     line-height: 110%;
 }
+#private-note{
+    float: left;
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FDE651;
+}
