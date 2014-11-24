@@ -3,7 +3,7 @@ var ourTeamArray = new Array();
 //Main Sections
 ourTeamArray = [
 
-{id:"0", empName:"Iain Chapman", empTitle:"Managing Director", empDepartment:"Regional Commercial Services", telNo:"+852 2842 4223", email:"ichapman@savills.com.hk", location:"Hong Kong, China", experience:"25", languages:"English", expertise:"Legal / Banking / Accounting", workCat:[
+{id:"0", empName:"Iain Chapman", empTitle:"Managing Director", empDepartment:"Worldwide Occupier Services", telNo:"+852 2842 4223", email:"ichapman@savills.com.hk", location:"Hong Kong, China", experience:"25", languages:"English", expertise:"Legal / Banking / Accounting", workCat:[
 	{cat:'leadership', locale:'china'},
 	{cat:'leadership', locale:'hong kong'},
 	{cat:'leadership', locale:'macau'},
@@ -92,7 +92,7 @@ ourTeamArray = [
 	{cat:'facilities management', locale:'malaysia'},
 	{cat:'facilities management', locale:'philippines'},
 	{cat:'facilities management', locale:'indonesia'}]},
-{id:"3", empName:"Dominic Harding", empTitle:"Senior Account Manager, Strategic Corporate Services, Asia Pacific", empDepartment:"Account Management", telNo:"+65 6415 1078 ext 3078", email:"dharding@savills.com.sg", location:"Singapore", experience:"4", languages:"English", expertise:"Corporate Real Estate", workCat:[
+{id:"3", empName:"Dominic Harding", empTitle:"Senior Account Manager, Worldwide Occupier Services, Asia Pacific", empDepartment:"Account Management", telNo:"+65 6415 1078 ext 3078", email:"dharding@savills.com.sg", location:"Singapore", experience:"4", languages:"English", expertise:"Corporate Real Estate", workCat:[
 	{cat:'strategic consulting', locale:'china'},
 	{cat:'strategic consulting', locale:'hong kong'},
 	{cat:'strategic consulting', locale:'macau'},
@@ -125,7 +125,7 @@ ourTeamArray = [
 	{cat:'strategic consulting', locale:'malaysia'},
 	{cat:'strategic consulting', locale:'philippines'},
 	{cat:'strategic consulting', locale:'indonesia'}]},
-{id:"64", empName:"James Mann", empTitle:"Senior Account Manager, Strategic Corporate Services, Asia Pacific", empDepartment:"", telNo:"+852 2842 4276", email:"jmann@savills.com.hk", location:"Hong Kong", experience:"9", languages:"English", expertise:"Corporate Real Estate", workCat:[
+{id:"64", empName:"James Mann", empTitle:"Senior Account Manager, Worldwide Occupier Services, Asia Pacific", empDepartment:"", telNo:"+852 2842 4276", email:"jmann@savills.com.hk", location:"Hong Kong", experience:"9", languages:"English", expertise:"Corporate Real Estate", workCat:[
 	{cat:'strategic consulting', locale:'china'},
 	{cat:'strategic consulting', locale:'hong kong'},
 	{cat:'strategic consulting', locale:'macau'},
@@ -219,7 +219,7 @@ ourTeamArray = [
 {id:"54", empName:"Yann Deschamps", empTitle:"Director", empDepartment:"Commercial", telNo:"+8621 6391 6688 ext 841", email:"yann.deschamps@savills.com.cn", location:"Shanghai, China", experience:"Over 12", languages:"English, Mandarin, French & Spanish", expertise:"Commercial, Tenant Representation & Industrial", workCat:[{cat:'tenant representation', locale:'china'}]},
 {id:"23", empName:"Michael Mccullough", empTitle:"Managing Director", empDepartment:"KMC MAG Group", telNo:"+63 2403 5519", email:"michael@kmcmaggroup.com", location:"Manila, Philippines", experience:"5", languages:"English & Filipino", expertise:"Tenant Representation / Customer Services Centres", workCat:[{cat:'tenant representation',locale:'philippines'}]},
 {id:"70", empName:"Woody Lam", empTitle:"Managing Director, Savills Southern China", empDepartment:"", telNo:"+8620 3892 7108", email:"woody.lam@savills.com.cn", location:"Guangzhou, China", experience:"Over 20", languages:"Chinese, English", expertise:"All sectors", workCat:[{cat:'tenant representation', locale:'china'}]},
-{id:"1", empName:"John Mackenzie", empTitle:"Divisional Director", empDepartment:"Corporate Real Estate Services", telNo:"+61 (0) 2 8215 8982", email:"jmackenzie@savills.com.au", location:"Sydney & Melbourne, Australia", experience:"37", languages:"English", expertise:"All Sectors", workCat:[
+{id:"1", empName:"John Mackenzie", empTitle:"Divisional Director", empDepartment:"Worldwide Occupier Services", telNo:"+61 (0) 2 8215 8982", email:"jmackenzie@savills.com.au", location:"Sydney & Melbourne, Australia", experience:"37", languages:"English", expertise:"All Sectors", workCat:[
 	{cat:'tenant representation', locale:'australia'},
 	{cat:'tenant representation', locale:'new zealand'}]},
 {id:"34", empName:"Alexander Ang", empTitle:"Marketing Executive", empDepartment:"Transaction Management", telNo:"+6010 366 7087", email:"alexang@savillsrahim-co.com", location:"Kuala Lumpur, Malaysia", experience:"2", languages:"English, Mandarin, Cantonese & Malay", expertise:"Relocation, Tenant-Rep", workCat:[
@@ -538,7 +538,7 @@ ourTeamArray = [
 {id:"72", empName:"Peter Adam", empTitle:"Associate Director", empDepartment:"Project Management", telNo:"+65 6415 3871", email:"padam@savills.com.sg", location:"Singapore", experience:"25", languages:"English", expertise:"Property Development & Project Management", workCat:[
 	{cat:'project management',locale:'singapore'}
 	]},
-{id:"75", empName:"Oliver Silsby", empTitle:"Account Analyst", empDepartment:"Strategic Corporate Services", telNo:"+852 2840 4715", email:"omsilsby@savills.com.hk", location:"Hong Kong, China", experience:"2", languages:"English & Mandarin", expertise:"Corporate Real Estate", workCat:[
+{id:"75", empName:"Oliver Silsby", empTitle:"Account Analyst", empDepartment:"Worldwide Occupier Services", telNo:"+852 2840 4715", email:"omsilsby@savills.com.hk", location:"Hong Kong, China", experience:"2", languages:"English & Mandarin", expertise:"Corporate Real Estate", workCat:[
 	{cat:'strategic consulting',locale:'hong kong'}
 	]},
 {id:"76", empName:"Shoko Yamahata", empTitle:"Assistant Manager", empDepartment:"Project Management, APAC", telNo:"+852 5691 6005", email:"syamahata@savills.asia", location:"Hong Kong, China", experience:"1", languages:"English & Japanese", expertise:"Project Management", workCat:[
