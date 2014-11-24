@@ -4189,7 +4189,7 @@ function genTopNav(){
 	str +='<div class="sectionTitle"><a href="'+homeHref+'our-clients/index.html">Our Clients</a></div>';
 	str +='<div class="clearfix">';
 	str +='<div class="subSectionItem">';
-	str +='<p>Track Record</p>';
+	str +='<a class="page-id-136" href="' + homeHref + 'our-clients/track-record/tr-apac/index.html">Track Record</a>';
 	str +='<ul>';
 	str +='<li><a class="page-class-136 page-class-232" href="' + homeHref + 'our-clients/track-record/tr-apac/index.html">APAC</a></li>';
 	str +='<li><a class="page-class-138 page-class-234" href="' + homeHref + 'our-clients/track-record/tr-europe/index.html">Europe</a></li>';
