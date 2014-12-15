@@ -49,49 +49,6 @@ content:url("../images/whereWePlay/bg_global_footprint_usa.png") url("../images/
 	<div class="mainContent withBreadcumb" style="position:relative;">
 		<div class="globalFootprintContainer">
 			<div id="mapBtnControl">
-				<div id="btnAustralasiaDiv">
-					<img src="../images/whereWePlay/btn_australasia.png" class="btnAustralasia" alt="" />
-					<div class="australasiaDiv">
-						<div class="closeBtn"></div>
-						<div class="countryContent clearfix">
-							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable floatLeft">
-								<tr>
-									<td>Adelaide</td>
-								</tr>
-								<tr>
-									<td>Auckland</td>
-								</tr>
-								<tr>
-									<td>Brisbane</td>
-								</tr>
-								<tr>
-									<td>Canberra</td>
-								</tr>
-								<tr>
-									<td>Gold Coast</td>
-								</tr>
-								<tr>
-									<td><a href="apac-footprint-city-guide/melbourne.html">Melbourne</a></td>
-								</tr>
-							</table>
-							
-							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable floatLeft">
-								<tr>
-									<td>Perth </td>
-								</tr>
-								<tr>
-									<td>Sunshine<br />Coast</td>
-								</tr>
-								<tr>
-									<td><a href="apac-footprint-city-guide/sydney.html">Sydney</a></td>
-								</tr>
-								<tr>
-									<td>Wellington</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-				</div>
 				<div id="btnSouthAfricaDiv">
 					<img src="../images/whereWePlay/btn_south_africa.png" class="btnSouthAfrica" alt="" />
 					<div class="southAfricaDiv">
@@ -123,71 +80,53 @@ content:url("../images/whereWePlay/bg_global_footprint_usa.png") url("../images/
 						</div>
 					</div>
 				</div>
-				<div id="btnIndiaDiv">
-					<img src="../images/whereWePlay/btn_india.png" class="btnIndia" alt="" />
-					<div class="indiaDiv">
-						<div class="closeBtn"></div>
-						<div class="countryContent">
-							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable">
-								<tr>
-									<td>Bangalore</td>
-								</tr>
-								<tr>
-									<td>Chennai</td>
-								</tr>
-								<tr>
-									<td>Dehli</td>
-								</tr>
-								<tr>
-									<td>Mumbai</td>
-								</tr>
-								<tr>
-									<td>Pune</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-				</div>
 				<div id="btnAsiaDiv">
 					<img src="../images/whereWePlay/btn_asia.png" class="btnAsia" alt="" />
 					<div class="asiaDiv">
 						<div class="closeBtn"></div>
 						<div class="countryContent">
 							<table cellpadding="0" cellspacing="0" border="0" width="" class="countryContentTable">
-								<tr>
+								<tbody><tr>
+								    <td>Australia</td>
+								    <td>Malaysia</td>
+								    <td>Thailand</td>
+								    </tr>
+								  <tr>
 								    <td><a href="apac-footprint-city-guide/beijing.html">China</a></td>
-								    <td>Philippines</td>
-								  </tr>
+								    <td>Myanmar</td>
+								    <td>Vietnam</td>
+							      </tr>
 								  <tr>
 								    <td><a href="apac-footprint-city-guide/hk.html">Hong Kong</a></td>
-								    <td><a href="apac-footprint-city-guide/singapore.html">Singapore</a></td>
-								  </tr>
+								    <td>New Zealand</td>
+								    <td>&nbsp;</td>
+							      </tr>
+								  <tr>
+								    <td>India</td>
+								    <td>Philippines</td>
+								    <td>&nbsp;</td>
+							      </tr>
 								  <tr>
 								    <td>Indonesia</td>
-								    <td><a href="apac-footprint-city-guide/seoul/index.html">South Korea</a></td>
-								  </tr>
+								    <td><a href="apac-footprint-city-guide/singapore.html">Singapore</a></td>
+								    <td>&nbsp;</td>
+							      </tr>
 								  <tr>
 								    <td><a href="apac-footprint-city-guide/tokyo.html">Japan</a></td>
-								    <td>Taiwan</td>
-								  </tr>
+								    <td><a href="apac-footprint-city-guide/seoul/index.html">South Korea</a></td>
+								    <td>&nbsp;</td>
+							      </tr>
 								  <tr>
 								    <td>Macau</td>
-								    <td>Thailand</td>
-								  </tr>
-								  <tr>
-								    <td>Malaysia</td>
-								    <td>Vietnam</td>
-								  </tr>
-								  <tr>
-								    <td>Myanmar</td>
+								    <td>Taiwan</td>
 								    <td>&nbsp;</td>
-								  </tr>
-							</table>
+							      </tr>
+							</tbody></table>
 						</div>
 					</div>
 				</div>
 				<div id="btnEuropeDiv">
-					<img src="../images/whereWePlay/btn_europe_lrg.png" class="btnEurope" alt="" />
+					<img src="../images/whereWePlay/btn_europe.png" class="btnEurope" alt="" />
 					<div class="europeDiv">
 						<div class="closeBtn"></div>
 						<div class="countryContent">
@@ -407,8 +346,8 @@ function initBackgroundChange(option)
 //initBackgroundChange();
 initMap('btnEuropeDiv', 1);
 initMap('btnSouthAfricaDiv', 3);
-initMap('btnAustralasiaDiv', 2);
-initMap('btnIndiaDiv', 2);
+/*initMap('btnAustralasiaDiv', 2);
+initMap('btnIndiaDiv', 2);*/
 initMap('btnAsiaDiv', 2);
 initMap('btnUKDiv', 1);
 initMap('btnUSADiv', 0);

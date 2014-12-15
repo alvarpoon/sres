@@ -177,6 +177,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .indexContentBtnContainer .btn_pm img{margin-left: -36.5px; margin-top: -19px;}
 .indexContentBtnContainer .btn_fm img{margin-left: -36.5px; margin-top: -19px;}
 .indexContentBtnContainer .btn_gcr img{margin-left: -42.5px; margin-top: -19px;}
+.indexContentBtnContainer .btn_acc img{margin-left: -35px;margin-top: -19px;}
 .indexContentBtnContainer .btn_cityBriefings img{margin-left: -24px; margin-top: -19px;}
 .indexContentBtnContainer .btn_researchReports img{margin-left: -26.5px; margin-top: -19px;}
 .indexContentBtnContainer .btn_benchmarking img{margin-left: -37px;margin-top: -11px;}
@@ -359,11 +360,12 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 
 /*Asia starts*/
 .globalFootprintContainer #btnAsiaDiv{cursor:pointer;}
-.globalFootprintContainer .btnAsia{top:190px; left:704px; width:142px; height:142px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear; transition-delay: 0.3s;-moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */ -o-transition-delay: 0.3s; /* Opera */ }
-.globalFootprintContainer .asiaDiv{box-shadow:-3px 0px 6px #000; width:0; height: 192px; overflow:hidden; position:absolute; right: 249px; top: 162px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
-.globalFootprintContainer #btnAsiaDiv.active .btnAsia{width:212px; height:211px; top:154px; left:665px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear;}
-.globalFootprintContainer #btnAsiaDiv.active .asiaDiv{width:392px; transition-delay: 0.3s; -moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */-o-transition-delay: 0.3s; /* Opera */}
-.globalFootprintContainer #btnAsiaDiv .countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width:318px; height: 178px;float: right;padding: 15px 0 0 32px;}
+.globalFootprintContainer .btnAsia{top: 320px;left: 760px; width:142px; height:142px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear; transition-delay: 0.3s;-moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */ -o-transition-delay: 0.3s; /* Opera */ }
+.globalFootprintContainer .asiaDiv{box-shadow:-3px 0px 6px #000; width:0; height: 192px; overflow:hidden; position:absolute; right: 179px; top: 310px; z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
+.globalFootprintContainer #btnAsiaDiv.active .btnAsia{width:212px; height:211px; top: 300px;
+left: 730px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear;}
+.globalFootprintContainer #btnAsiaDiv.active .asiaDiv{width: 502px;transition-delay: 0.3s; -moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */-o-transition-delay: 0.3s; /* Opera */}
+.globalFootprintContainer #btnAsiaDiv .countryContent{background:url(../images/whereWePlay/bg_countryDiv_content.png) no-repeat right; width: 432px; height: 178px;float: right;padding: 15px 0 0 32px;}
 /*Asia ends*/
 
 /*Europe starts*/
@@ -378,7 +380,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 /*UK starts*/
 .globalFootprintContainer #btnUKDiv{cursor:pointer;}
 .globalFootprintContainer .btnUK{top:192px; left:355px; width:142px; height:142px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear; transition-delay: 0.3s;-moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */ -o-transition-delay: 0.3s; /* Opera */ }
-.globalFootprintContainer .ukDiv{box-shadow:-3px 0px 6px #000; width:0; height: 192px; overflow:hidden; position:absolute; left: 439px; top: 158px;z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
+.globalFootprintContainer .ukDiv{box-shadow:-3px 0px 6px #000; width:0; height: 192px; overflow:hidden; position:absolute; left: 429px;top: 160px;z-index:10; -webkit-transition:width 0.3s linear; -moz-transition:width 0.3s linear; -o-transition:width 0.3s linear; transition:width 0.3s linear;}
 .globalFootprintContainer #btnUKDiv.active .btnUK{width:212px; height:211px; top:150px; left:335px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear; -o-transition:all 0.3s linear; transition:all 0.3s linear;}
 .globalFootprintContainer #btnUKDiv.active .ukDiv{width:282px; transition-delay: 0.3s; -moz-transition-delay: 0.3s; /* Firefox 4 */ -webkit-transition-delay: 0.3s; /* Safari and Chrome */-o-transition-delay: 0.3s; /* Opera */}
 .globalFootprintContainer #btnUKDiv .closeBtn{background:url(../images/whereWePlay/btn_close_right.png) no-repeat 15px 90px #2b2b2b; width:42px; height:201px; position:absolute; left:240px !important; top:0;}
@@ -758,7 +760,7 @@ h3 { font-size:20px; padding-bottom:10px; line-height:100%; }
 .trackRecordLogoContainer{height:704px; background:#fff; float:left; width:880px;}
 #logoContent{padding:13px 0 0 8px; height:651px;}
 /*.trackRecordLogoContent{height:664px;}*/
-.trackRecordLogoContent{width:742px; position:relative; height:549px; padding:15px 0 15px 10px; background-color:#fff; float:left;}
+.trackRecordLogoContent{width:742px; position:relative; height:499px; padding:15px 0 15px 10px; background-color:#fff; float:left;}
 
 .trackRecordLogoContent .recordItem{display:block; float:left; margin:0 8px 15px 8px;cursor:pointer; position:relative; width:86px; height:66px;}
 .trackRecordLogoContent .recordItem .showMoveDiv{display:none;}
@@ -891,7 +893,7 @@ body.footprint-map #leftNavPanel{width:275px;}
 .ourTeamLogoContainer .logo_small{top:33px !important; right:21px !important;}
 #teamContent{height:704px;}
 .choiceOfViewContainer {
-    height: 32px;
+    height: 82px;
     margin-right: 35px;
     padding-top: 20px;
     position: relative;
@@ -1296,4 +1298,6 @@ body.footprint-map #leftNavPanel{width:275px;}
     font-size: 13px;
     font-weight: bold;
     color: #FDE651;
+    width: 470px;
+    text-align: left;
 }
