@@ -760,8 +760,10 @@ left: 730px; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear
 .trackRecordLogoContainer{height:704px; background:#fff; float:left; width:880px;}
 #logoContent{padding:13px 0 0 8px; height:651px;}
 /*.trackRecordLogoContent{height:664px;}*/
-.trackRecordLogoContent{width:742px; position:relative; height:499px; padding:15px 0 15px 10px; background-color:#fff; float:left;}
-
+.trackRecordLogoContent{width:742px; position:relative; height:549px; padding:15px 0 15px 10px; background-color:#fff; float:left;}
+.trackRecordLogoContentWithNote{
+    height: 499px!important;
+}
 .trackRecordLogoContent .recordItem{display:block; float:left; margin:0 8px 15px 8px;cursor:pointer; position:relative; width:86px; height:66px;}
 .trackRecordLogoContent .recordItem .showMoveDiv{display:none;}
 .withHover .trackRecordLogoContent .recordItem:hover .showMoveDiv{display:block; background:url(../images/bg_hoverItem.png) repeat; width:86px; height:66px; position:absolute; top:0; left:0; z-index:799}
@@ -893,11 +895,14 @@ body.footprint-map #leftNavPanel{width:275px;}
 .ourTeamLogoContainer .logo_small{top:33px !important; right:21px !important;}
 #teamContent{height:704px;}
 .choiceOfViewContainer {
-    height: 82px;
+    height: 32px;
     margin-right: 35px;
     padding-top: 20px;
     position: relative;
     text-align: right;
+}
+.trackRecordChoiceOfViewContainer{
+    height: 82px;
 }
 .choiceOfViewContainer a {
     color: #636363;
